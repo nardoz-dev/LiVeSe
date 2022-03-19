@@ -19,10 +19,9 @@ PIPPO is a smart security system that, through distribuited station acquires, in
 ####  - *Document Links*
  
    >[Concept](https://github.com/nardoz-dev/projectName/blob/main/docs/1stdelivery/concept.md)
+   >[Technology](https://github.com/nardoz-dev/projectName/blob/main/docs/1stdelivery/technology.md)
+   >[Evaluation](https://github.com/nardoz-dev/projectName/blob/main/docs/1stdelivery/evaluation.md)
     
-    > Technology
-    
-    > Evaluation
 #### *Videos links*
   
     > Presentation
