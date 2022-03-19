@@ -5,7 +5,7 @@
 
 - Andrea Nardocci   [*LinkedinProfile*](www.google.it)
 - Antonio Grieco    *LinkedinProfile*
-- Matteo Casini     *LinkedinProfile*
+- Matteo Casini     [*LinkedinProfile*](https://www.linkedin.com/in/matteo--casini)
 
 # BriefDescription
 
