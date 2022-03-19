@@ -3,7 +3,7 @@
 
 # Member
 
-- Andrea Nardocci   [*LinkedinProfile*](https://www.linkedin.com/in/andrea--nardocci)
+- Andrea Nardocci   [*LinkedinProfile*](https://www.linkedin.com/in/andrea-nardocci-4a1132235)
 - Antonio Grieco    *LinkedinProfile*
 - Matteo Casini     [*LinkedinProfile*](https://www.linkedin.com/in/matteo--casini)
 
