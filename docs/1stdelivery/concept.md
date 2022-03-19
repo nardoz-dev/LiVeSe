@@ -10,7 +10,7 @@
 >Marco is  district public amministrator of any city. His work is about managing urban lighting. Through our system he is able to see which areas are more enlightened than others. So Marco know which areas need to areas need to receive new light poles.
 
 ## Storyboard
-Storyboards Client side story on how use and interact with the system 
+
 - *A client wants to walk in an urban area* 
 - *He wants to be sure if it's secure before passing through*
 - *He connect to the designed app and receive information about that area*
