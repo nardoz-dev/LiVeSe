@@ -2,11 +2,11 @@
   
 *`PIPPO` is a smart security system that, through distribuited station acquires, in particular contexts, certain information like the amount of crowd and the brightness of the street in order to try to evaluate and improve the security feels of the zone.*   
   
-## Waitress’s Lisa.
+##  Lisa
 
 >Lisa is a waitress who finishes late for work and wants to get home safely. She always comes home from the same path. >Unfortunately one day the road is blocked and Lisa is obliged to change her path. Lisa would feel safer if she had the >chance to find an alternative and safe route
 
-## Amministratore Pubblico
+## Public Administrator
 >Marco is a technical district of any city. His work is about managing urban lighting. Through our system he is able to >see which areas are more enlightened than others. So Marco know which areas need to areas need to receive new light >poles.
 
 ## Storyboard
