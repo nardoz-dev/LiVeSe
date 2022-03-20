@@ -36,6 +36,11 @@ To be on,the station needs more or less an 5Volt on input.
 
 | **Products** | **Power Consume on Active** | **Power Consume on Idle** |  **Power consume on Sleep** | 
 | --- | --- | --- | --- |
+| `Nucleo -f410re` | 100mA max |
+| `Photoresistor CdS` |
+| `Infrared ZTP-135BS` |
+| `SoundSensors TS-US-115-CA` |
+| `Antenna RS PRO N` |
 
 ### Evaluation of end-user experience
 We focus on effectiveness of service and knowledge extrapolated
