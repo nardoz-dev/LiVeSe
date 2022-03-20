@@ -30,6 +30,8 @@ We provide the use of this tools : [`AirTime calculator`](https://avbentem.githu
 
 Station power constraints:
 
+
+
 Each devices,drain energy on battery,so we must try to lighten as much as possible the workload on the station to avoid an overcharging of the battery. This can be done appropriately calculating sensing and sending times: fewer detections possible, fewer deliveries possible, lower will be the consumption
 To be on,the station needs more or less an 5Volt on input.
 
@@ -39,6 +41,8 @@ To be on,the station needs more or less an 5Volt on input.
 | `Infrared ZTP-135BS` | 0.45mA | 0.27mA |
 | `SoundSensors TS-US-115-CA` | 4~5 mA | 4~5 mA |
 | `Antenna` | 500mA |  *None* |
+
+![](https://github.com/nardoz-dev/LiVeSe/blob/main/docs/sharedpictures/battery_management.jpg)
 
 Of course to gain a more efficent misuration about power energy will can use a specific tool like ammeter that we can misurate the powersupply on the device.  The board include a special pin like : Jumper JP5, labeled IDD, is used to measure the STM32 microcontroller consumption by removing the jumper and by connecting an ammeter:
 - JP5 ON: STM32 is powered (default)
