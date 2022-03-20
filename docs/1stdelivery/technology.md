@@ -2,9 +2,9 @@
 # Hardware Architecture
 
 ## Brief Description
-  > The final user can visualize information about the safety level of the road-square, through a webapp. Essentialy each station got sensore like : `photoresistor`, `sound sensors` and `infrared` . The board send data to the Gateway and then it send to the cloud
-  >
-  >Obviously when the system will be installed it needs a configuration setup that pick up all the data and processing it to ensure a bettere rappresentation of the data
+The final user can visualize information about the safety level of the road-square, through a webapp. Essentialy each station got sensore like : `photoresistor`, `sound sensors` and `infrared` . The board send data to the Gateway and then it send to the cloud
+  
+Obviously when the system will be installed it needs a configuration setup that pick up all the data and processing it to ensure a bettere rappresentation of the data
 
 
 ## Components
