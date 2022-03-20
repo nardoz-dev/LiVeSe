@@ -1,5 +1,5 @@
-# projectName
-`projectName` - IoT University Group Project for the IoT 2022 Course @ Sapienza University of Rome.
+# LiVeSe
+`LiVeSe` - IoT University Group Project for the IoT 2022 Course @ Sapienza University of Rome.
 
 # Member
 
@@ -9,7 +9,7 @@
 
 # BriefDescription
 
-`PIPPO`is a smart security system that, through distribuited station acquires, in particular contexts, certain information like the amount of crowd and the brightness of the street in order to try to evaluate and improve the security feels of the zone.
+`LiVeSE`is a smart security system that, through distribuited station acquires, in particular contexts, certain information like the amount of crowd and the brightness of the street in order to try to evaluate and improve the security feels of the zone.
 
 
 # History
