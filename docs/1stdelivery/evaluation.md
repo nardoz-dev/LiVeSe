@@ -29,7 +29,7 @@ We provide the use of this tools : [`AirTime calculator`](https://avbentem.githu
 
 ### Power consuming and energy efficiency
 
-Each devices,drain energy on battery,so we must try to lighten as much as possible the workload on the station to avoid an overcharging of the battery. To be on,the station needs more or less an 3.3Volt on input.
+Each devices,drain energy on battery,so we must try to lighten as much as possible the workload on the station to avoid an overcharging of the battery. To be on,the station needs more or less an 5Volt on input.
 
 
 
