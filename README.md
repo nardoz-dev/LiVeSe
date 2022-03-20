@@ -26,11 +26,11 @@
     
 ####  *Videos links*
   
-    > Presentatiom
-    
-    > Technical Approach
-    
-    > Performance evaluation
+ -  > Presentation
+
+ -  > Technical Approach
+ 
+ -  > Performance evaluation
 
 ## Second Delivery
 
