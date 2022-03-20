@@ -20,7 +20,7 @@ IOT Device composed of a `Nucleo -f401re Board` , `Power Source` , `LoRa` module
 - Sound Sensors like [*TS-US-115-CA*](https://www.amazon.com/DAOKI-Sensitivity-Microphone-Detection-Arduino/dp/B00XT0PH10/ref=sr_1_3?keywords=Arduino+Sound+Sensor&qid=1647773484&sr=8-3) capturing Loudness of that area Data Captured 
 
 
-Proxy/Gateway consisting of Rasberry pi model xxx computing initial row data including:
+Proxy consisting of Rasberry pi model xxx computing initial row data including:
   - LoRa module 
   - MQTT-SN message broker 
   - Power By external source 
@@ -28,6 +28,8 @@ Proxy/Gateway consisting of Rasberry pi model xxx computing initial row data inc
 
 # Network Architecture
 
-IOT device will communicate with the gateway 
-
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/1stdelivery/pictures/IoTNetworkDiagram.png)
+
+## Brief Description
+> Our station communicate via MQTT over LORA. Each sensor node publishes over a different topic, one topic for one sensor. The gateway act as MQTT-SN broker e recives data from one node it sends it to the cloud-based backend.
+> 
