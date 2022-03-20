@@ -31,12 +31,3 @@
  -  > Technical Approach
  
  -  > Performance evaluation
-
-## Second Delivery
-
-  - *Document Links*
-  
-    > 2nd Delivery
- 
-
-## Third Delivery
