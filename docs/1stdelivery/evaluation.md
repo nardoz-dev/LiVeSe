@@ -5,13 +5,12 @@ The goal of this document is to providing information about "evalutation" of Pro
 - Performance evaluation (network and embedded devices)
 - List of the key performance indicators
 - The evaluation of the response time from an end-user point of view.
-- 
+
 ## Performance Evaluation
 ### Embedded Device
 ### Performance of Network 
 
-> Is it effective? Can We measure A security level of a road through Ambiental Sensors Like Level of light , 
-Loudness , relative Position respect to nearby Bar,pubs, Disco and others Points of interests?
+
 
 > Device As : Network Performance(packets lost/data Rate + Power Consumption)
 
