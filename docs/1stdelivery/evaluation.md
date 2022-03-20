@@ -34,13 +34,12 @@ Station power constraints:
 Each devices,drain energy on battery,so we must try to lighten as much as possible the workload on the station to avoid an overcharging of the battery. This can be done appropriately calculating sensing and sending times: fewer detections possible, fewer deliveries possible, lower will be the consumption
 To be on,the station needs more or less an 5Volt on input.
 
-| **Products** | **Power Consume on Active** | **Power Consume on Idle** |  **Power consume on Sleep** | 
-| --- | --- | --- | --- |
+| **Products** | **Power Consume on Active** | **Power Consume on Idle** |
+| :---: | :---: | :---: |
 | `Nucleo -f410re` | 100mA max |
-| `Photoresistor CdS` |
-| `Infrared ZTP-135BS` |
-| `SoundSensors TS-US-115-CA` |
-| `Antenna RS PRO N` |
+| `Infrared ZTP-135BS` | 0.45mA | 0.27mA
+| `SoundSensors TS-US-115-CA` | 4~5 mA | *None* |
+| `Antenna RS PRO N` | 500mA | 0.5mA |
 
 ### Evaluation of end-user experience
 We focus on effectiveness of service and knowledge extrapolated
