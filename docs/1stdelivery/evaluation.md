@@ -29,8 +29,12 @@ We provide the use of this tools : [`AirTime calculator`](https://avbentem.githu
 
 ### Power consuming and energy efficiency
 
-Each devices,drain energy on battery,so we must try to lighten as much as possible the workload on the station to avoid an overcharging of the battery. To be on,the station needs more or less an 5Volt on input.
+Station power constraints:
 
+Each devices,drain energy on battery,so we must try to lighten as much as possible the workload on the station to avoid an overcharging of the battery. This can be done appropriately calculating sensing and sending times: fewer detections possible, fewer deliveries possible, lower will be the consumption
+To be on,the station needs more or less an 5Volt on input.
+
+| **Products** | **Power Consume on Active** | **Power Consume on Idle** |  **Power consume on Sleep** | 
 
 
 ### Evaluation of end-user experience
