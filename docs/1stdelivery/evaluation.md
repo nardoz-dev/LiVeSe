@@ -16,7 +16,7 @@ Performance evaluation mainly concerns two aspects: evaluation of the performanc
 We provide the use of this tools : [`AirTime calculator`](https://avbentem.github.io/airtime-calculator/ttn/eu868/51) for LoRaWAN to calculate and optimize our airtime for a longer battery life and less gateway utilization.
 
 > *Ipotethical tool test results *[^1]*:*
-> ![](https://github.com/nardoz-dev/projectName/blob/main/docs/1stdelivery/pictures/LoraToolTest.png)
+> ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/LoraToolTest.png)
 
 #### AWS
 > Amount of Data collected, data rates exchanges with cloud platform and related Cost 
