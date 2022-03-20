@@ -31,5 +31,5 @@ Proxy consisting of [`Rasberry pi 3 model B+`](https://www.raspberrypi.com/produ
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/1stdelivery/pictures/IoTNetworkDiagram.png)
 
 ## Brief Description
-> Our station communicate via MQTT over LORA. Each sensor node publishes over a different topic, one topic for one sensor. The gateway act as MQTT-SN broker e recives data from one node it sends it to the cloud-based backend.
-> 
+> Our station communicate via MQTT over LORA. Each sensor node publishes over a different topic, one topic for one sensor. The gateway act as MQTT-SN broker.
+> ProxyServer collect data from ambient sensor , save it on the AWS (AmazonWebServices) and push notification about safety road.
