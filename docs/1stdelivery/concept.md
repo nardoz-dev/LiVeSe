@@ -1,6 +1,6 @@
 # Concept
   
-*`PIPPO` is a smart security system that, through distribuited station acquires, in particular contexts, certain information like the amount of crowd and the brightness of the street in order to try to evaluate and improve the security feels of the urban area.*   
+*`PIPPO` is a smart security system that, through distribuited station acquires, during night time, enviroment information like the amount of crowd and the brightness of the street in order to evaluate and improve the security feels of the urban area.*   
   
 ##  Lisa
 
