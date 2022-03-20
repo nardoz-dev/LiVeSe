@@ -1,11 +1,12 @@
 # Evaluation
 
-Doc providing information about "evaluation" of Project
+The goal of this document is to providing information about "evalutation" of Project. This evaluation is based on the follow constraints:
 
-- What the Project want to evaluate?
-- What aspect the Project want to focus on?
+- The evaluation of the performance of the network technologies.
+- The evaluation of the performance of the embedded devices in terms of power consumption and energy efficiency.
+- The evaluation of the response time from an end-user point of view.
 
-> Performance of Network 
+## Performance of Network 
 
 > Is it effective? Can We measure A security level of a road through Ambiental Sensors Like Level of light , 
 Loudness , relative Position respect to nearby Bar,pubs, Disco and others Points of interests?
