@@ -7,6 +7,8 @@ The goal of this document is to providing information about "evalutation" of Pro
 
 ## Performance Evaluation
 
+Performance evaluation mainly concerns two aspects: evaluation of the performance of the cloud infrastructure and evaluation for the physical characteristics of the devices.
+
 ### Network Evaluation
 
 #### LoRa
@@ -26,6 +28,10 @@ We provide the use of this tools : [`AirTime calculator`](https://avbentem.githu
 > Node computation of instant data and subsequent sent
 
 ### Power consuming and energy efficiency
+
+Each devices,drain energy on battery,so we must try to lighten as much as possible the workload on the station to avoid an overcharging of the battery. To be on,the station needs more or less an 3.3Volt on input.
+
+
 
 ### Evaluation of end-user experience
 We focus on effectiveness of service and knowledge extrapolated
