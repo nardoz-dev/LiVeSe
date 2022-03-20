@@ -36,10 +36,10 @@ To be on,the station needs more or less an 5Volt on input.
 
 | **Products** | **Power Consume on Active** | **Power Consume on Idle** |
 | :---: | :---: | :---: |
-| `Nucleo -f410re` | 100mA max |
-| `Infrared ZTP-135BS` | 0.45mA | 0.27mA
-| `SoundSensors TS-US-115-CA` | 4~5 mA | *None* |
-| `Antenna RS PRO N` | 500mA | 0.5mA |
+| `Nucleo -f410re` | 300mA max | 100mA |
+| `Infrared ZTP-135BS` | 0.45mA | 0.27mA |
+| `SoundSensors TS-US-115-CA` | 4~5 mA | 4~5 mA |
+| `Antenna` | 500mA |  |
 
 ### Evaluation of end-user experience
 We focus on effectiveness of service and knowledge extrapolated
