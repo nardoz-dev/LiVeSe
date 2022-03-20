@@ -39,7 +39,7 @@ To be on,the station needs more or less an 5Volt on input.
 | `Nucleo -f401re` | 300mA max | 100mA |
 | `Infrared ZTP-135BS` | 0.45mA | 0.27mA |
 | `SoundSensors TS-US-115-CA` | 4~5 mA | 4~5 mA |
-| `Antenna` | 500mA |  |
+| `Antenna` | 500mA |  *None* |
 
 Of course to gain a more efficent misuration about power energy will can use a specific tool like ammeter that we can misurate the powersupply on the device.The board supply a special pin like JP5 used for this operation.
 
