@@ -33,4 +33,6 @@ IOT Device composed of a `Nucleo -f401re Board` , `Power Source` , `LoRa` module
 
 > Cloud act as MQTT-SN broker and visualizator of data
 
-> Client can access the service through REST HTTP protocol
+> ***Message Passing*** As LoRaWan and IoT seems to have a good integration with AWS services.
+
+> ***Client*** can access the service through REST HTTP protocol
