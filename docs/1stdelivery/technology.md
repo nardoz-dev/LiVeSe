@@ -20,10 +20,9 @@ IOT Device composed of a `Nucleo -f401re Board` , `Power Source` , `LoRaWAN` mod
 - Sound Sensors like xxxx capturing Loudness of that area Data Captured 
 ... descr of specific model....
 
-Proxy/Gateway consisting of Rasberry pi model xxx including:
+Proxy/Gateway consisting of Rasberry pi model xxx computing initial row data including:
   - LoRa module 
-  - running a MQTT message broker 
-  - computing initial row data 
+  - MQTT message broker 
   - Power By external source 
 
 
