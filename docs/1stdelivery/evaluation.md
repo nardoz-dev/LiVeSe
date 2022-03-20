@@ -41,7 +41,9 @@ To be on,the station needs more or less an 5Volt on input.
 | `SoundSensors TS-US-115-CA` | 4~5 mA | 4~5 mA |
 | `Antenna` | 500mA |  *None* |
 
-Of course to gain a more efficent misuration about power energy will can use a specific tool like ammeter that we can misurate the powersupply on the device. 
+Of course to gain a more efficent misuration about power energy will can use a specific tool like ammeter that we can misurate the powersupply on the device.  The board include a special pin like : Jumper JP5, labeled IDD, is used to measure the STM32 microcontroller consumption by removing the jumper and by connecting an ammeter:
+- JP5 ON: STM32 is powered (default)
+- JP5 OFF: an ammeter must be connected to measure the STM32 current. If there is no ammeter, the STM32 is not powered
 
 ### Evaluation of end-user experience
 We focus on effectiveness of service and knowledge extrapolated
