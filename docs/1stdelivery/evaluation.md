@@ -18,10 +18,12 @@ Loudness , relative Position respect to nearby Bar,pubs, Disco and others Points
 >Cloud Base As:  Communication protocols with proxies and clients portal , Type of Service and Knoledge offered  
 and Overall Costs(data rates exchanges with cloud platform + device/proxy cost)
 
-> effectiveness of service and knowledge extrapolated:
-(User Experience and satisfaction)
-For now we will focus on two knowledge: 
-1.  we want to create a secure path through an urban area.
+
+# end-user experience
+We focus on effectiveness of service and knowledge extrapolated
+1.  we want to create a secure path through an urban area
 2. light and croud as indicator of security instead of obscure and not populated side streets
-3. Density of pubs,bars and restaurants as synonimus of secure.
-4. Idea of :  More people+light around implies  more secure areas.
+3. Density of pubs, bars and restaurants as synonimus of secure
+
+- Idea of "More people and light implies more secure areas" is effective? 
+- Can We measure A security level of a road through Ambiental Sensors Like Level of light, Loudness and density of Points of interests in the area
