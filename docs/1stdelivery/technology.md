@@ -11,20 +11,21 @@
 
 
 ## Components
-> IOT Device composed of a Nucleo -f401re Board , Power Source , LoRaWAN module and following Sensors:
->Photoresistors like xxxx used to evaluate the Light level of the specific Road or square during night time
+
+IOT Device composed of a `Nucleo -f401re Board` , `Power Source` , `LoRaWAN` module and following Sensors:
+- Photoresistors like xxxx used to evaluate the Light level of the specific Road or square during night time
 ... descr of specific model....
-> Passive Infrared Sensors like xxxx to extrapolate how many people will pass through that street within night time frames
+- Passive Infrared Sensors like xxxx to extrapolate how many people will pass through that street within night time frames
 ... descr of specific model....
-> Sound Sensors like xxxx capturing Loudness of that area 
+- Sound Sensors like xxxx capturing Loudness of that area 
 Data Captured 
 ... descr of specific model....
 
->Rasberry pi model xxx as Proxy/Gateway consisting of 
-- LoRa module 
-- running a MQTT message broker 
-- computing initial row data 
-- Power By external source 
+- Rasberry pi model xxx as Proxy/Gateway consisting of 
+  - LoRa module 
+  - running a MQTT message broker 
+  - computing initial row data 
+  - Power By external source 
 
 
 # Network Architecture
