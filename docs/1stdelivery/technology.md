@@ -36,3 +36,5 @@ Proxy consisting of [Rasberry pi 3 model B+](https://www.raspberrypi.com/product
 > ProxyServer collect data from ambient sensor and push notification on the Amazon Web Service about urban area safety.
 
 > Client can access the service through REST HTTP protocol.
+
+> Cloud processing the data and try to visualize it on the screen
