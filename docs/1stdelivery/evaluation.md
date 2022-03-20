@@ -23,7 +23,7 @@ We provide the use of this tools : [`AirTime calculator`](https://avbentem.githu
 
 #### Devices
 
-> Network Performance as packets lost/data Rate and Antenna Consumption
+> packets lost/data Rate and Antenna Consumption
 > Sensors Consumption 
 > Node computation of instant data and subsequent sent
 
