@@ -7,7 +7,14 @@ The goal of this document is to providing information about "evalutation" of Pro
 - The evaluation of the response time from an end-user point of view
 
 ## Performance Evaluation
+
 ### Network Evaluation
+
+We provide the use of this tools : [`AirTime calculator`](https://avbentem.github.io/airtime-calculator/ttn/eu868/51) for LoRaWAN to calculate and optimize our airtime for a longer battery life and less gateway utilization.
+
+Ipotethical test results:
+
+
 > Device As : Network Performance(packets lost/data Rate + Power Consumption)
 
 > AWS : Amount of Data collected, Possible node  Computation of instant data and subsequent sent.
