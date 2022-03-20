@@ -21,7 +21,7 @@ Loudness , relative Position respect to nearby Bar,pubs, Disco and others Points
 and Overall Costs(data rates exchanges with cloud platform + device/proxy cost)
 ## Key Performance indicators
 
-## end-user experience
+## End-user experience
 We focus on effectiveness of service and knowledge extrapolated
 1.  we want to create a secure path through an urban area
 2. light and croud as indicator of security instead of obscure and not populated side streets
