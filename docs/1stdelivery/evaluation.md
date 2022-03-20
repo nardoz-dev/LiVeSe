@@ -15,7 +15,7 @@ Performance evaluation mainly concerns two aspects: evaluation of the performanc
 
 We provide the use of this tools : [`AirTime calculator`](https://avbentem.github.io/airtime-calculator/ttn/eu868/51) for LoRaWAN to calculate and optimize our airtime for a longer battery life and less gateway utilization.
 
-> *Ipotethical tool test results:*^ne
+> *Ipotethical tool test results:*[^1]
 > ![](https://github.com/nardoz-dev/projectName/blob/main/docs/1stdelivery/pictures/LoraToolTest.png)
 
 #### AWS
@@ -51,4 +51,5 @@ We focus on effectiveness of service and knowledge extrapolated
 
 > Idea of "More people and light implies more secure areas" is effective? 
 > Can We measure Safety of roads through Ambiental Sensors and density of Points of interests in the area?
-^ne on example we use a random value
+
+[^1]: The example is based on random value.
