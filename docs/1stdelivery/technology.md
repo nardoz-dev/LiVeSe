@@ -30,4 +30,4 @@ Proxy/Gateway consisting of Rasberry pi model xxx computing initial row data inc
 
 IOT device will communicate with the gateway 
 
-![](https://github.com/nardoz-dev/projectName/blob/main/docs/1stdelivery/pictures/IoTDiagram.png)
+![](https://github.com/nardoz-dev/projectName/blob/main/docs/1stdelivery/pictures/IoTNetworkDiagram.png)
