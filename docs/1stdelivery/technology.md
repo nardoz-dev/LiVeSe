@@ -19,7 +19,7 @@ IOT Device composed of a `Nucleo -f401re Board` , `Power Source` , `LoRa` module
 
 - Sound Sensors like [*TS-US-115-CA*](https://www.amazon.com/DAOKI-Sensitivity-Microphone-Detection-Arduino/dp/B00XT0PH10/ref=sr_1_3?keywords=Arduino+Sound+Sensor&qid=1647773484&sr=8-3) capturing Loudness of that area Data Captured 
 
-- antenna xxxxx
+- Antenna like [*RS PRO N*](https://it.rs-online.com/web/p/antenne-multibanda/1766867)
 
 
 # Network Architecture
