@@ -7,7 +7,7 @@ The goal of this document is to providing information about "evalutation" of Pro
 - The evaluation of the response time from an end-user point of view
 
 ## Performance Evaluation
-### Performance of Network 
+### Network Evaluation
 > Device As : Network Performance(packets lost/data Rate + Power Consumption)
 
 > AWS : Amount of Data collected, Possible node  Computation of instant data and subsequent sent.
