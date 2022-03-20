@@ -19,7 +19,7 @@ IOT Device composed of a `Nucleo -f401re Board` , `Power Source` , `LoRa` module
 
 - Sound Sensors like [*LM393*](https://components101.com/modules/lm393-sound-detection-sensor-module) capturing Loudness of that area Data Captured 
 
-- Antenna like [*RS PRO N*](https://it.rs-online.com/web/p/antenne-multibanda/1766867)
+- Antenna like [*AntennaKit*](https://www.adafruit.com/product/3340) that use integrate LoPy LoRA, up to 900MHz 
 
 
 # Network Architecture
