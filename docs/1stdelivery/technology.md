@@ -34,3 +34,5 @@ Proxy consisting of [Rasberry pi 3 model B+](https://www.raspberrypi.com/product
 > Our station communicate via MQTT over LORA. Each sensor node publishes over a different topic, one topic for one sensor. The gateway act as MQTT-SN broker.
 
 > ProxyServer collect data from ambient sensor and push notification on the Amazon Web Service about urban area safety.
+
+> Client can access the service through HTTP Rest paradigm.
