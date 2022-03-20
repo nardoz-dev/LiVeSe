@@ -17,7 +17,7 @@ We provide the use of this tools : [`AirTime calculator`](https://avbentem.githu
 > ![](https://github.com/nardoz-dev/projectName/blob/main/docs/1stdelivery/pictures/LoraToolTest.png)
 
 #### AWS
-> AWS : Amount of Data collected, data rates exchanges with cloud platform and related Cost 
+> Amount of Data collected, data rates exchanges with cloud platform and related Cost 
 
 #### Devices
 
