@@ -41,7 +41,7 @@ To be on,the station needs more or less an 5Volt on input.
 | `SoundSensors TS-US-115-CA` | 4~5 mA | 4~5 mA |
 | `Antenna` | 500mA |  *None* |
 
-Of course to gain a more efficent misuration about power energy will can use a specific tool like ammeter that we can misurate the powersupply on the device. The board supply a special pin like JP5 used for this operation.
+Of course to gain a more efficent misuration about power energy will can use a specific tool like ammeter that we can misurate the powersupply on the device. 
 
 ### Evaluation of end-user experience
 We focus on effectiveness of service and knowledge extrapolated
