@@ -2,9 +2,9 @@
 # Hardware Architecture
 
 ## Brief Description
-  > The final user can view all the system information with an webapp. Essentialy each station got sensore like : `photoresistor`, `sound sensors` and `infrared` , and has a gateway `raspberry pi3` that receives the data from the node and then send it to the cloud. 
+  > The final user can view all the system information with an webapp. Essentialy each station got sensore like : `photoresistor`, `sound sensors` and `infrared` , and has a gateway `raspberry pi3` that receives the data from the node and then send it to the cloud
   >
-  >Obviously when the system will be installed it needs a configuration setup that pick up all the data and processing it.
+  >Obviously when the system will be installed it needs a configuration setup that pick up all the data and processing it
 
 
 ## Components
@@ -27,10 +27,10 @@ IOT Device composed of a `Nucleo -f401re Board` , `Power Source` , `LoRa` module
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/1stdelivery/pictures/IoTNetworkDiagram.png)
 
 ## Brief Description
-> Our station communicate via MQTT over LORA. Each sensor node publishes over a different topic, one topic for one sensor. 
+> Our station communicate via MQTT over LORA. Each sensor after extracting Ambient parameters from sensors, evaluate instantaneously safety level of the road-square. 
 
-> ProxyServer collect data from ambient sensor and push notification on the Amazon Web Service about urban area safety.
+> Then it upload new status of the road on the Amazon Web Service
 
-> Client can access the service through REST HTTP protocol.
+> Cloud act as MQTT-SN broker and visualizator of data
 
-> Cloud act as MQTT-SN broker, process and visualize data 
+> Client can access the service through REST HTTP protocol
