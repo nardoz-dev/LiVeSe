@@ -10,14 +10,17 @@ The goal of this document is to providing information about "evalutation" of Pro
 
 ### Network Evaluation
 
+#### LoRa
+
 We provide the use of this tools : [`AirTime calculator`](https://avbentem.github.io/airtime-calculator/ttn/eu868/51) for LoRaWAN to calculate and optimize our airtime for a longer battery life and less gateway utilization.
 
 Ipotethical tool test results:
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/1stdelivery/pictures/LoraToolTest.png)
 
-> Device As : Network Performance(packets lost/data Rate + Power Consumption)
-
+#### AWS
 > AWS : Amount of Data collected, Possible node  Computation of instant data and subsequent sent.
+
+> Device As : Network Performance(packets lost/data Rate + Power Consumption)
 
 >Cloud Base As:  Communication protocols with proxies and clients portal , Type of Service and Knoledge offered  
 and Overall Costs(data rates exchanges with cloud platform + device/proxy cost)
