@@ -17,8 +17,8 @@ IOT Device composed of a `Nucleo -f401re Board` , `Power Source` , `LoRaWAN` mod
 
 - Passive Infrared Sensors like [*ZTP-135BS*](https://www.mouser.it/ProductDetail/Amphenol-Advanced-Sensors/ZTP-135BS?qs=w0nOqLG47DjVzY%252BqattwWw%3D%3D) to extrapolate how many people will pass through that street within night time frames
 
-- Sound Sensors like xxxx capturing Loudness of that area Data Captured 
-... descr of specific model....
+- Sound Sensors like [*TS-US-115-CA*](https://www.amazon.com/DAOKI-Sensitivity-Microphone-Detection-Arduino/dp/B00XT0PH10/ref=sr_1_3?keywords=Arduino+Sound+Sensor&qid=1647773484&sr=8-3) capturing Loudness of that area Data Captured 
+
 
 Proxy/Gateway consisting of Rasberry pi model xxx computing initial row data including:
   - LoRa module 
