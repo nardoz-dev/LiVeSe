@@ -26,4 +26,4 @@ We focus on effectiveness of service and knowledge extrapolated
 3. Density of pubs, bars and restaurants as synonimus of secure
 
 - Idea of "More people and light implies more secure areas" is effective? 
-- Can We measure A security level of a road through Ambiental Sensors Like Level of light, Loudness and density of Points of interests in the area
+- Can We measure Safety of roads through Ambiental Sensors and density of Points of interests in the area?
