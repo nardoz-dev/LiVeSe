@@ -19,7 +19,7 @@ IOT Device composed of a `Nucleo -f401re Board` , `Power Source` , `LoRa` module
 
 Proxy/Gateway consisting of Rasberry pi model xxx computing initial row data including:
   - LoRa module 
-  - MQTT message broker 
+  - MQTT-SN message broker 
   - Power By external source 
 
 
