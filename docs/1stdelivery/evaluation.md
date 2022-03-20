@@ -20,10 +20,7 @@ We provide the use of this tools : [`AirTime calculator`](https://avbentem.githu
 > AWS : Amount of Data collected, Possible node  Computation of instant data and subsequent sent.
 
 #### Devices
-> Device As : Network Performance(packets lost/data Rate + Power Consumption)
 
->Cloud Base As:  Communication protocols with proxies and clients portal , Type of Service and Knoledge offered  
-and Overall Costs(data rates exchanges with cloud platform + device/proxy cost)
 
 ### Power consuming and energy efficiency
 
@@ -35,3 +32,8 @@ We focus on effectiveness of service and knowledge extrapolated
 
 > Idea of "More people and light implies more secure areas" is effective? 
 > Can We measure Safety of roads through Ambiental Sensors and density of Points of interests in the area?
+
+
+> Device As : Network Performance(packets lost/data Rate + Power Consumption)
+> Cloud Base As:  Communication protocols with proxies and clients portal , Type of Service and Knoledge offered  
+and Overall Costs(data rates exchanges with cloud platform + device/proxy cost)
