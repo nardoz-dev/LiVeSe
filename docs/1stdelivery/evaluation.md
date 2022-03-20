@@ -20,6 +20,7 @@ Ipotethical tool test results:
 #### AWS
 > AWS : Amount of Data collected, Possible node  Computation of instant data and subsequent sent.
 
+#### Devices
 > Device As : Network Performance(packets lost/data Rate + Power Consumption)
 
 >Cloud Base As:  Communication protocols with proxies and clients portal , Type of Service and Knoledge offered  
