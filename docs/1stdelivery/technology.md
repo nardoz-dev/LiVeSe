@@ -2,9 +2,9 @@
 # Hardware Architecture
 
 ## Brief Description
-The final user can visualize information about the safety level of the road-square, through a webapp. Essentialy each station got sensore like : `photoresistor`, `sound sensors` and `infrared` . The board send data to the Gateway and then it send to the cloud
+The final user can visualize information about safety level of the roads,squares and Urban Areas, through a web-app. Essentially each station got sensors like : `photoresistor`, `sound sensors` and `infrared` . The board through Network module will send data to the Gateway and then to the cloud.
   
-Obviously when the system will be installed it needs a configuration setup that pick up all the data and processing it to ensure a bettere rappresentation of the data
+Obviously when the system will be installed it will needs a configuration setup that pick up all the data and processing it to ensure a better rappresentation of the data
 
 
 ## Components
@@ -27,13 +27,13 @@ IOT Device composed of a `Nucleo -f401re Board` , `Power Source` , `LoRa` module
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/IoTDiagram.png)
 
 ## Brief Description
-> Our station communicate via MQTT over LORA. Each sensor after extracting Ambient parameters from sensors, evaluate instantaneously safety level of the road-square. 
+> After extracting Ambient parameters from sensors,The stations evaluate instantaneously safety level of the surroundings
 
-> Then it upload new status of the road on the Amazon Web Service. 
+> Then it upload new status of the road exchanging messages over LoRa to the AWS Cloud Application
 
-> Cloud act as MQTT-SN broker and visualizator of data
+> Cloud act as MQTT broker and visualizator of data
 
-> ***Message Passing*** As LoRaWan and IoT seems to have a good integration with AWS services.
+> ***Message Passing*** As LoRaWan and IoT seems to have a good integration with AWS services
 
 
-> ***Client*** can access the service through REST HTTP protocol
+> ***Client*** can access the service and visualize safe areas through REST-HTTP protocol
