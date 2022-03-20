@@ -17,10 +17,13 @@ We provide the use of this tools : [`AirTime calculator`](https://avbentem.githu
 > ![](https://github.com/nardoz-dev/projectName/blob/main/docs/1stdelivery/pictures/LoraToolTest.png)
 
 #### AWS
-> AWS : Amount of Data collected, Possible node  Computation of instant data and subsequent sent.
+> AWS : Amount of Data collected, data rates exchanges with cloud platform and related Cost 
 
 #### Devices
 
+> Network Performance as packets lost/data Rate and Antenna Consumption
+> Sensors Consumption 
+> Node computation of instant data and subsequent sent
 
 ### Power consuming and energy efficiency
 
@@ -32,8 +35,3 @@ We focus on effectiveness of service and knowledge extrapolated
 
 > Idea of "More people and light implies more secure areas" is effective? 
 > Can We measure Safety of roads through Ambiental Sensors and density of Points of interests in the area?
-
-
-> Device As : Network Performance(packets lost/data Rate + Power Consumption)
-> Cloud Base As:  Communication protocols with proxies and clients portal , Type of Service and Knoledge offered  
-and Overall Costs(data rates exchanges with cloud platform + device/proxy cost)
