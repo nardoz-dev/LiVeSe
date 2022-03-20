@@ -10,7 +10,7 @@
 ## Marco
 
 
->Marco is  district public amministrator of any city. His work is about managing urban lighting. Through our system he is able to see which areas are more enlightened than others. So Marco know which areas need to areas need to receive new light poles.
+>Marco is a district public amministrator of Rome, working in the branch of urban regeneration. Through our system he is able to understand which areas needs more focus and attention than others. So Marco decision to allocate new resources and services is supported by our system.
 
 ## Storyboard
 
