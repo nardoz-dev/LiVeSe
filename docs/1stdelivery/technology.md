@@ -24,7 +24,7 @@ IOT Device composed of a `Nucleo -f401re Board` , `Power Source` , `LoRa` module
 
 # Network Architecture
 
-![](https://github.com/nardoz-dev/projectName/blob/main/docs/1stdelivery/pictures/IoTDiagram.png)
+![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/IoTDiagram.png)
 
 ## Brief Description
 > Our station communicate via MQTT over LORA. Each sensor after extracting Ambient parameters from sensors, evaluate instantaneously safety level of the road-square. 
