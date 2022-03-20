@@ -20,7 +20,7 @@ IOT Device composed of a `Nucleo -f401re Board` , `Power Source` , `LoRa` module
 - Sound Sensors like [*TS-US-115-CA*](https://www.amazon.com/DAOKI-Sensitivity-Microphone-Detection-Arduino/dp/B00XT0PH10/ref=sr_1_3?keywords=Arduino+Sound+Sensor&qid=1647773484&sr=8-3) capturing Loudness of that area Data Captured 
 
 
-Proxy consisting of [`Rasberry pi 3 model B+`](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/) computing initial row data including:
+Proxy consisting of [Rasberry pi 3 model B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/) computing initial row data including:
   - LoRa module 
   - MQTT-SN message broker 
   - Power By external source 
@@ -33,4 +33,4 @@ Proxy consisting of [`Rasberry pi 3 model B+`](https://www.raspberrypi.com/produ
 ## Brief Description
 > Our station communicate via MQTT over LORA. Each sensor node publishes over a different topic, one topic for one sensor. The gateway act as MQTT-SN broker.
 
-> ProxyServer collect data from ambient sensor and push notification on the Amazon Web Service about safety road.
+> ProxyServer collect data from ambient sensor and push notification on the Amazon Web Service about safety.
