@@ -58,6 +58,6 @@ We focus on effectiveness of service and quality of knowledge extrapolated
 
 - Idea of "More people and light implies more secure areas" is effective?
 - Are Density of pubs, bars and restaurants synonimus of safety?
-> Can We measure Safety of Urban Areas through Ambiental Sensors and density of Points of interests in that area?
+- Can We measure Safety of Urban Areas through Ambiental Sensors and density of Points of interests in that area?
 
 [^1]: The example is based on random value.
