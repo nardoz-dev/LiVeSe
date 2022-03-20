@@ -29,10 +29,11 @@ IOT Device composed of a `Nucleo -f401re Board` , `Power Source` , `LoRa` module
 ## Brief Description
 > Our station communicate via MQTT over LORA. Each sensor after extracting Ambient parameters from sensors, evaluate instantaneously safety level of the road-square. 
 
-> Then it upload new status of the road on the Amazon Web Service
+> Then it upload new status of the road on the Amazon Web Service. 
 
 > Cloud act as MQTT-SN broker and visualizator of data
 
 > ***Message Passing*** As LoRaWan and IoT seems to have a good integration with AWS services.
+
 
 > ***Client*** can access the service through REST HTTP protocol
