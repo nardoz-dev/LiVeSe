@@ -15,7 +15,7 @@ Loudness , relative Position respect to nearby Bar,pubs, Disco and others Points
 
 > Device As : Network Performance(packets lost/data Rate + Power Consumption)
 
-> Edge Proxy/Gateway As: Amount of Data collected, Possible Edge Computation of instant data and subsequent sent.
+> AWS : Amount of Data collected, Possible node  Computation of instant data and subsequent sent.
 
 >Cloud Base As:  Communication protocols with proxies and clients portal , Type of Service and Knoledge offered  
 and Overall Costs(data rates exchanges with cloud platform + device/proxy cost)
