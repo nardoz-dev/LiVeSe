@@ -12,7 +12,7 @@ The goal of this document is to providing information about "evalutation" of Pro
 
 We provide the use of this tools : [`AirTime calculator`](https://avbentem.github.io/airtime-calculator/ttn/eu868/51) for LoRaWAN to calculate and optimize our airtime for a longer battery life and less gateway utilization.
 
-Ipotethical test results:
+Ipotethical tool test results:
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/1stdelivery/pictures/LoraToolTest.png)
 
 > Device As : Network Performance(packets lost/data Rate + Power Consumption)
