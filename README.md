@@ -28,6 +28,6 @@
   
  -  > Presentation
 
- -  > Technical Approach
+ -  > [Technical Approach](https://youtu.be/LVbxLFv3axM)
  
  -  > Performance evaluation
