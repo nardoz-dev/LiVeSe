@@ -13,6 +13,8 @@ IOT Device composed of a `Nucleo -f401re Board` , `Power Source` , `LoRa` module
 
 - [*Nucleo -f401re Board*](https://www.st.com/en/evaluation-tools/nucleo-f401re.html) is a 32-bit ARM based microcontroller. THe board will run RIOT OS used to make it as easy as possible the coding of network functionalities and sensor drivers
 
+- [*Lora Extension kit*](https://www.st.com/en/evaluation-tools/i-nucleo-lrwan1.html)T his board is an integrated solution allowing anyone to learn and develop solutions using LoRa® technologies.
+
 - Photoresistors like [*CdS photoresistor*](https://www.adafruit.com/product/161) used to evaluate the Light level of the specific Road or square during night time
 
 - InfraRed Sensors like [*TSOP38238*](https://www.adafruit.com/product/157) to extrapolate how many people will pass through that street within night time frames
