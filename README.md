@@ -32,4 +32,4 @@
  
  -  > [Performance evaluation](https://youtu.be/FuS8JFfNO8Q)
 
-[^1] [SlidePresentation1stDelivery](https://drive.google.com/drive/folders/19eqFpTNYTQZWTqECtUOLSaU-NNftseN5?usp=sharing)
+[^1]: [SlidePresentation1stDelivery](https://drive.google.com/drive/folders/19eqFpTNYTQZWTqECtUOLSaU-NNftseN5?usp=sharing)
