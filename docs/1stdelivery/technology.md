@@ -29,7 +29,7 @@ IOT Device composed of a `Nucleo -f401re Board` , `Power Source` , `LoRa` module
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/IoTDiagram.png)
 
 ## Brief Description
-> After extracting Ambient parameters from sensors,The stations evaluate instantaneously safety level of the surroundings
+> After extracting Ambient parameters from sensors, the stations evaluate instantaneously safety level of the surroundings
 
 > Then it upload new status of the road exchanging messages over LoRa to the AWS Cloud Application
 
