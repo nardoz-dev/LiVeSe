@@ -1,6 +1,6 @@
 # Concept
   
-*`LiVeSe` is a smart surveillance-security system that, through distribuited station acquires, during night-time, enviroment information like the amount of crowd and the brightness of the street in order to evaluate and improve perceived safety of the urban area.*   
+*`LiVeSe` is a smart security system that, through distribuited station acquires, during night-time, enviroment information like the amount of crowd and the brightness of the street in order to evaluate and improve perceived safety of the urban area.*   
   
 ##  Lisa
 
