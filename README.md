@@ -1,7 +1,7 @@
 # LiVeSe
 `LiVeSe` - IoT University Group Project for the IoT 2022 Course @ Sapienza University of Rome.
 
-## Member
+## Members
 
 - Andrea Nardocci   [*LinkedinProfile*](https://www.linkedin.com/in/andrea-nardocci)
 - Antonio Grieco    [*LinkedinProfile*](https://www.linkedin.com/in/AntonioGrieco96)
