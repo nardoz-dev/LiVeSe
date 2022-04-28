@@ -24,7 +24,7 @@ Then `AWS` will be used to Visualize via `dashboard` and integrate `Google Maps`
 Our devices will be active during **night-time** for at least *10 hours every day*. During this time They alternate from sleep to active mode.
 
 During the active mode all the component in our device start to capture specific ambient variable. Each variable has an own weight based on the pull form that we do, in order to normalize it correctly. 
-Furthermore, this data will be pass through our algorithm that process this data and extrapulate the main variable  : "LiVeSe-Security". 
+Furthermore, this data will be pass through our algorithm that process this data and extrapolate the main variable  : "LiVeSe-Security". 
 In depth the algorithm put the sum of the light_value, pir_value, mic_value in our defined threeshold : 
 
     RED (Not Secure)        => Final value from 0 to 33
@@ -36,9 +36,9 @@ In depth the algorithm put the sum of the light_value, pir_value, mic_value in o
 - PIR
 
 The measure of how many people will pass through that street is taken by the PIR. Its accuracy can be an issue since the sensor will capt the data every 2 second. 
-As a consequence it could happen that the pir can't detect effectively if a person pass or not in front of our station position.
+As a consequence it could happen that the PIR can't detect effectively if a person pass or not in front of our station position.
 
-So in order to avoid this problem, in the future we want to apply a servomotor to improve the gradation of the angle that the pir occupies.
+So in order to avoid this problem, in the future we want to apply a servomotor to improve the gradation of the angle that the PIR occupies.
 Taking into account that the servo motor could probably have a greater impact in terms of consumption.
 
 
@@ -47,9 +47,6 @@ Taking into account that the servo motor could probably have a greater impact in
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/NetDiagram.png)
 
 
-This architecture does not have any particular network constraint. We plan to update the data on the cloud each time the LiveSe-Security variable changes. This choice has been made considering the nature of the system which only needs to know the last measured LiveSe-Security. We’ll send to the cloud only our main variable, so we thinking that the bandwidth needed by each device is minimal. Having planned a high update latency implies fewer usage of the radio that can be turned off during sleep times saving energy.
+This architecture does not have any particular network constraint. We plan to update the data on the cloud each time the LiveSe-Security variable changes. This choice has been made considering the nature of the system which only needs to know the last measured LiveSe-Security. We’ll send to the cloud only our main variable, so we think that the bandwidth needed by each device is minimal. Having planned a high update latency implies fewer usage of the radio that can be turned off during sleep times saving energy.
 
-We use LoRa communication protocol because of its low power consumption and long range. Its main constraint is the low bitrate but it is still suitable for our project.
-
-
-net ::: only 1 mss : why: 
+We use LoRa communication protocol because of its low power consumption and long range. Its main constraint is the low bit rate but it is still suitable for our project.
