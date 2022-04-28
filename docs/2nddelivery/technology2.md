@@ -11,13 +11,12 @@ Then `AWS` will be used to Visualize via `dashboard` and integrate `Google Maps`
 
 - [*Nucleo -f401re Board*](https://www.st.com/en/evaluation-tools/nucleo-f401re.html) is a 32-bit ARM based microcontroller. The board will run RIOT OS used to make it as easy as possible the coding of network functionalities and sensor drivers
 
-- [*Lora Expansion kit*](https://www.st.com/en/evaluation-tools/i-nucleo-lrwan1.html) This board is an integrated solution allowing anyone to learn and develop solutions using LoRa® technologies.
+- Photoresistors [*GL 55 photoresistor*](https://www.kth.se/social/files/54ef17dbf27654753f437c56/GL5537.pdf) used to evaluate the Light level of the specific Road or square during night time
 
-- Photoresistors like [*CdS photoresistor*](https://www.adafruit.com/product/161) used to evaluate the Light level of the specific Road or square during night time
+- InfraRed Sensors [*HC-SR501*](https://diyi0t.com/hc-sr501-pir-motion-sensor-arduino-esp8266-esp32/) to extrapolate how many people will pass through that street within night time frames
 
-- InfraRed Sensors like [*TSOP38238*](https://www.adafruit.com/product/157) to extrapolate how many people will pass through that street within night time frames
+- Sound Sensors [*KY-037*](https://win.adrirobot.it/sensori/37_in_1/KY-037_KY-038-Microphone-sound-sensor-module.htm) capturing Loudness of that area Data Captured 
 
-- Sound Sensors like [*LM393*](https://components101.com/modules/lm393-sound-detection-sensor-module) capturing Loudness of that area Data Captured 
 
 ## Duty Cycle 
 
