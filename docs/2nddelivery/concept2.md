@@ -14,9 +14,9 @@ These are the Results:
 
 *Overnight before moving on an area, road or square, do you feel more secure passing through...*
 
-![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/GraficoIllumanatedOk.png)
-![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/GraficoNoiseOk.png)
-![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/GraficoCrowdedOkkk.png)
+![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/GraficoIllumanatedOk.jpg)
+![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/GraficoNoiseOk.jpg)
+![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/GraficoCrowdedOkkk.jpg)
 
 This allow us to assert that...
 
