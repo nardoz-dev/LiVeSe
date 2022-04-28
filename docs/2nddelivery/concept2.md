@@ -2,9 +2,9 @@
 
 Taking into account the increase of violent cases, walking at night can make us feel **uncomfortable** and Public administration not every time is aware of the **degradation** of the neighborhoods
 
-![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/slums.jpg)
+#### ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/slums.jpg)
 
-![picture 2](../../images/f3962feafc4dfc925f8b5218558b3e2024ac9a2e872f65729d1bb0147da34de5.jpg)  
+## ![picture 2](../../images/f3962feafc4dfc925f8b5218558b3e2024ac9a2e872f65729d1bb0147da34de5.jpg)  
 
 
 We started from a simple question :
