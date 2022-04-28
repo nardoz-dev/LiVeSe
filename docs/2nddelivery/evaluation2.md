@@ -1,5 +1,8 @@
 # Power consumption 
 
+Station power constraints:
+
+
 | **Products** | **Power Consume on Active** | **Power Consume on Idle** |
 | :---: | :---: | :---: |
 | `Nucleo -f401re` | 300mA max | 100mA |
@@ -23,10 +26,6 @@ We focus on effectiveness of service and quality of knowledge extrapolated
 - Can We measure Safety of Urban Areas through Ambiental Sensors and density of Points of interests in that area?
 
 [^1]: The example is based on random value.
-
-
-
-
 
 
 
