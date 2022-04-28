@@ -1,6 +1,10 @@
 # Power consumption 
 
-Station power constraints:
+- define Upper and Lower bound of theoretical Power consumption 
+  - definiamo tempo di attivita' e sleep in una ora 
+  - definiamo consumo in quella ora 
+  - valutiamo quanto dura la batteria della Lora
+  
 
 
 | **Products** | **Power Consume on Active** | **Power Consume on Idle** |
