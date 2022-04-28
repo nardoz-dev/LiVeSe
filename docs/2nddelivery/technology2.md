@@ -19,20 +19,28 @@ Then `AWS` will be used to Visualize via `dashboard` and integrate `Google Maps`
 
 - Sound Sensors like [*LM393*](https://components101.com/modules/lm393-sound-detection-sensor-module) capturing Loudness of that area Data Captured 
 
-## Logic
+## Duty Cycle 
 
-> After extracting Ambient parameters from sensors, the stations evaluate instantaneously safety level of the surroundings
+Our devices will be active during **night-time** for at least *10 hours every day*. During this time They alternate from sleep to active mode.
 
-> Then it upload new status of the road exchanging messages over LoRa to the AWS Cloud Application
+During the active mode all the component in our device start to capture specific ambient variable. Each variable has an own weight based on the pull form that we do, in order to normalize it correctly. 
+Furthermore, this data will be pass through our algorithm that process this data and extrapulate the main variable  : "LiVeSe-Security". 
+In depth the algorithm put the sum of the light_value, pir_value, mic_value in our defined threeshold : 
 
-> Cloud act as MQTT broker and visualizator of data
+    RED (Not Secure)        => Final value from 0 to 33
+    ORANGE (Almost Secure)  => Final value from 33 to 67
+    GREEN (Secure)          => Final value from 67 to 100.
 
-> ***Message Passing*** As LoRaWan and IoT seems to have a good integration with AWS services
+### Accuracy of the PIR components
+
+> PIR
+
+The measure of how many people will pass through that street is taken by the PIR. Its accuracy can be an issue since the sensor will capt the data every 2 second. As a consequence it could happen that the pir can't detect effectively if a person pass or not in front of our station position.
+So in order to avoid this problem, in the future we want to apply a servomotor to improve the gradation of the angle that the pir occupies.
+Taking into account that the servo motor could probably have a greater impact in terms of consumption.
 
 
-> ***Client*** can access the service and visualize safe areas through REST-HTTP protocol
-
-## network 
+## Network 
 
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/NetDiagram.png)
 
