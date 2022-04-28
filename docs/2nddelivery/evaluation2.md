@@ -27,9 +27,11 @@ expected ~10h of Duty time every day
 
 So in order to estimate the value of our total energy consumption, we try to obtain the data sheet of our all component but not all components are available.
 
-> The main constraint is energy consumption: We want the battery to last for at least one year. 
+- The main constraint is energy consumption: We want the battery to last for at least one year.
 
-> However, Our initial approach is **Oversampling** : we don't know yet what is the *best sampling rate*, we need more testing to understand how dynamic can be our phenomena. We will try to decrease Active time as much as possible
+However, Our initial approach is **Oversampling** : we don't know yet what is the *best sampling rate*
+
+- We need more testing on *real scenarios* in order to understand how dynamic can be our phenomena. We will try to decrease Active time as much as possible for the next delivery
 
 For now, we decide to read from each device every 2 seconds, and the board go to sleep mode for 4 seconds.
 
@@ -48,5 +50,17 @@ expected ~10h of Duty time every day
 ==
 50 days Expected Battery Life
 ```
+
+## Integration with Cloud Services 
+
+The state of our integration with Cloud services is the following :
+
+- We successfully be able to communicate with The Thing Network and AWS with our device 
+- However we decide to concentrate our effort in the making of the device
+  - We expect to complete the integration for the next delivery
+- We encountered problems related to the *ADC line* of the board (2 of our sensors uses analog outputs)
+  - We implement some experiments in the FIT IOT lab 
+  - but We were not able to make further test on the physical board 
+
 
 
