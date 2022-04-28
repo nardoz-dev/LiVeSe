@@ -32,4 +32,13 @@
  
  -  > [Performance evaluation](https://youtu.be/FuS8JFfNO8Q)
 
+### Second Delivery
+ 
+ -  >[Concept](https://github.com/nardoz-dev/projectName/blob/main/docs/2stdelivery/concept.md)
+
+ -  >[Technology](https://github.com/nardoz-dev/projectName/blob/main/docs/2stdelivery/technology.md)
+
+ -  >[Evaluation](https://github.com/nardoz-dev/projectName/blob/main/docs/2stdelivery/evaluation.md)
+
+
 [^1]: [SlidePresentation1stDelivery](https://drive.google.com/drive/folders/19eqFpTNYTQZWTqECtUOLSaU-NNftseN5?usp=sharing)
