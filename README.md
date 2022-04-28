@@ -36,11 +36,11 @@
 
 ####  *Document Links*[^1]
  
- -  >[Concept](https://github.com/nardoz-dev/projectName/blob/main/docs/2stdelivery/concept.md)
+ -  >[Concept](https://github.com/nardoz-dev/projectName/blob/main/docs/2nddelivery/concept2.md)
 
- -  >[Technology](https://github.com/nardoz-dev/projectName/blob/main/docs/2stdelivery/technology.md)
+ -  >[Technology](https://github.com/nardoz-dev/projectName/blob/main/docs/2nddelivery/technology2.md)
 
- -  >[Evaluation](https://github.com/nardoz-dev/projectName/blob/main/docs/2stdelivery/evaluation.md)
+ -  >[Evaluation](https://github.com/nardoz-dev/projectName/blob/main/docs/2nddelivery/evaluation2.md)
 
 
 [^1]: [SlidePresentation1stDelivery](https://drive.google.com/drive/folders/19eqFpTNYTQZWTqECtUOLSaU-NNftseN5?usp=sharing)
