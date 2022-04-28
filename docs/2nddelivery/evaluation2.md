@@ -37,16 +37,16 @@ We Tried to experiment with FIT IOT lab and the average consumption was of *0.01
 
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/iotLabv2.jpg)
 
-under the same cycle (2-4):
+under the same cycle (4-2):
 ```
 66000mAh Battery Capacity (3xAAA)
 ~18mA      Max Consumption
 ==
 366.4h Max Battery Life (6 days)
 expected ~10h of Duty time every day
-6.6h of active hours every day
+3.3h of active hours every day
 ==
-50 days Expected Battery Life
+111 days Expected Battery Life
 ```
 
 
