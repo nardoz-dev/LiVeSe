@@ -29,7 +29,7 @@ So in order to estimate the value of our total energy consumption, we try to obt
 
 > The main constraint is energy consumption: We want the battery to last for at least one year. 
 
-> However, Our initial approach is **Oversampling** : we don't know yet what is the *best sampling rate*, we need more testing to understand how dynamic can be our phenomena
+> However, Our initial approach is **Oversampling** : we don't know yet what is the *best sampling rate*, we need more testing to understand how dynamic can be our phenomena. We will try to decrease Active time as much as possible.
 
 For now, we decide to read from each device every 2 seconds, and the board go to sleep mode for 4 seconds.
 
