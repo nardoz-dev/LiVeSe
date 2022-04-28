@@ -47,6 +47,9 @@ Taking into account that the servo motor could probably have a greater impact in
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/NetDiagram.png)
 
 
+This architecture does not have any particular network constraint. We plan to update the data on the cloud each time the LiveSe-Security variable changes. This choice has been made considering the nature of the system which only needs to know the last measured LiveSe-Security. We’ll send to the cloud only our main variable, so we thinking that the bandwidth needed by each device is minimal. Having planned a high update latency implies fewer usage of the radio that can be turned off during sleep times saving energy.
+
+We use LoRa communication protocol because of its low power consumption and long range. Its main constraint is the low bitrate but it is still suitable for our project.
 
 
-
+net ::: only 1 mss : why: 
