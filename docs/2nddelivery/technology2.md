@@ -33,7 +33,7 @@ In depth the algorithm put the sum of the light_value, pir_value, mic_value in o
 
 ### Accuracy of the PIR components
 
-> PIR
+- PIR
 
 The measure of how many people will pass through that street is taken by the PIR. Its accuracy can be an issue since the sensor will capt the data every 2 second. As a consequence it could happen that the pir can't detect effectively if a person pass or not in front of our station position.
 So in order to avoid this problem, in the future we want to apply a servomotor to improve the gradation of the angle that the pir occupies.
