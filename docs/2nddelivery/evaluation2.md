@@ -1,59 +1,23 @@
-# Power consumption 
+# Energy consumption 
 
-- define Upper and Lower bound of theoretical Power consumption 
-  - definiamo tempo di attivita' e sleep in una ora 
-  - definiamo consumo in quella ora 
-  - valutiamo quanto dura la batteria della Lora
-  
-
-
-| **Products** | **Power Consume on Active** | **Power Consume on Idle** |
-| :---: | :---: | :---: |
-| `Nucleo -f401re` | 300mA max | 100mA |
-| `Infrared ZTP-135BS` | 0.45mA | 0.27mA |
-| `SoundSensors TS-US-115-CA` | 4~5 mA | 4~5 mA |
-| `Antenna` | 500mA |  *None* |
+The main constraint is energy consumption. We want the battery to last for at least one year. Our assumption is that we read from each device every 2 seconds, and the board go to sleep mode for 4 seconds. This loop will start only on the night and not on 24/24h and it's active for at least 10 hours every day. 
+When the station is on :
+- Pir each 2 seconds goes on and need to compute how many people pass through the street.
+- The Mic each 2 seconds goes on and try to catch the noyse of the street.
+- The Photoresistor each 2 seconds goes on and try to catch the light of the street.
 
 
-Of course to gain a more efficient measurement about power energy will can use a specific tool like ammeter that we can misurate the powersupply on the device.  The board include a special pin like : Jumper JP5, labeled IDD, is used to measure the STM32 microcontroller consumption by removing the jumper and by connecting an ammeter:
-- JP5 ON: STM32 is powered (default)
-- JP5 OFF: an ammeter must be connected to measure the STM32 current. If there is no ammeter, the STM32 is not powered
-
-### Evaluation of end-user experience
-We focus on effectiveness of service and quality of knowledge extrapolated
-1. We want to create a secure path through an urban area
-2. we want to show a clear view of the state of urban Areas
-3. light,loudness and volume of people passing as indicator of safety instead of obscure,quite and not very populated side streets
-
-- Idea of "More people and light implies more secure areas" is effective?
-- Are Density of pubs, bars and restaurants synonimus of safety?
-- Can We measure Safety of Urban Areas through Ambiental Sensors and density of Points of interests in that area?
-
-[^1]: The example is based on random value.
+| **Products** | **Power Consume ** | **Power Consume on StandBy** | 
+| :---: | :---: | :---: | 
+| `Nucleo -f401re` | 300mA max | 100mA | 
+| `Pir HC-SR501` | ~1 mA while motion is detected | ~40-60µAµA | 
+| `Mic KY-037` | ~1 mA | ~0 mA | 
+| `Photoresistor like GL5516` | ~0mA |  ~0mA | 
 
 
+We try to gain a more efficient measurement about power energy with a specific tool like ammeter. We put two board on series and evaluate what's the power consumption of the board. The output of our ammeter says that we consume 0,004A = ~4mA. The main problem about this measure is that our ammeters give this results only if it's on a large scale of unit and so we thinking that it's broken.
 
-# Evaluation
+So in order to "estimate" the value of our total energy consumption, we try to obtain the datasheet of our all component. After we got the power consumption of the all component that we use we estrapulate the complessive power consumption of our device.
 
-The goal of this document is providing information about "evalutation" of Project. This evaluation is based on the follow constraints:
-  - The evaluation of the performance of the network technologies.
-  - The evaluation of the performance of the embedded devices in terms of power consumption and energy efficiency.
-  - The evaluation of the response time from an end-user point of view.
-
-## Performance Evaluation
-
-Performance evaluation mainly concerns two aspects: evaluation of the performance of the cloud infrastructure and evaluation for the physical characteristics of the devices.
-
-### Network Evaluation
-
-#### LoRa
-
-We provide the use of this tools : [`AirTime calculator`](https://avbentem.github.io/airtime-calculator/ttn/eu868/51) for LoRaWAN to calculate and optimize our airtime for a longer battery life and less gateway utilization.
-
-> *Ipotethical tool test results *[^1]*:*
-> ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/LoraToolTest.png)
-
-#### AWS
-> Amount of Data collected, data rates exchanges with cloud platform and related Cost 
-
+##Analysis
 
