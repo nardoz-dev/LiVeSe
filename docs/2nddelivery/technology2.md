@@ -5,7 +5,7 @@ Then `AWS` will be used to Visualize via `dashboard` and integrate `Google Maps`
 
 ## Wiring Architecture
 
-![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/STM%LiVeSe.jpg)
+![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/STMLiVeSe.jpg)
 
 ## Components
 
