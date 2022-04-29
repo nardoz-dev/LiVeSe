@@ -46,11 +46,11 @@
 
 ####  *Videos links*
   
- -  > [Presentation](---)
+ -  > [Technical Demo](---)
 
- -  > [Technical Approach](---)
+ -  > [Evaluation](---)
  
- -  > [Performance evaluation](---)
+ -  > [Future plans](---)
 
 
 [^1]: [SlidePresentation1stDelivery](https://drive.google.com/drive/folders/19eqFpTNYTQZWTqECtUOLSaU-NNftseN5?usp=sharing)
