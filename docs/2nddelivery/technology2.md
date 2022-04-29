@@ -40,6 +40,9 @@ As a consequence it could happen that the PIR can't detect effectively if a pers
 So in order to avoid this problem, in the future we want to apply a servomotor to improve the gradation of the angle that the PIR occupies.
 Taking into account that the servo motor could probably have a greater impact in terms of consumption.
 
+### Problem with ky-037 microphone 
+
+We tried to use this sensor in order to gain a good sample of sound in the surrounding. However, this sensor seems to be made from low quality components: even if it is considered as a sensor module with 'high sensitivity' it is not able to perceive sounds or noise farther than a few centimeters. We are currently searching for a new one 
 
 ## Network 
 
@@ -49,3 +52,5 @@ Taking into account that the servo motor could probably have a greater impact in
 This architecture does not have any particular network constraint. We plan to update the data on the cloud each time the LiveSe-Security variable changes. This choice has been made considering the nature of the system which only needs to know the last measured LiveSe-Security. We’ll send to the cloud only our main variable, so we think that the bandwidth needed by each device is minimal. Having planned a high update latency implies fewer usage of the radio that can be turned off during sleep times saving energy.
 
 We use LoRa communication protocol because of its low power consumption and long range. Its main constraint is the low bit rate but it is still suitable for our project.
+
+We encountered compilation errors related to the ADC line used by analog sensors when dealing with the Lora Discovery board, this has blocked our test with the network part of our project and slowed down all possible integration with cloud services
