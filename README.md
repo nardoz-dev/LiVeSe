@@ -36,11 +36,21 @@
 
 ####  *Document Links*[^1]
  
+  - >[2ndDelivery](https://github.com/nardoz-dev/projectName/blob/main/docs/2nddelivery/2ndDelivery.md)
+   
  -  >[Concept](https://github.com/nardoz-dev/projectName/blob/main/docs/2nddelivery/concept2.md)
 
  -  >[Technology](https://github.com/nardoz-dev/projectName/blob/main/docs/2nddelivery/technology2.md)
 
  -  >[Evaluation](https://github.com/nardoz-dev/projectName/blob/main/docs/2nddelivery/evaluation2.md)
+
+####  *Videos links*
+  
+ -  > [Presentation](---)
+
+ -  > [Technical Approach](---)
+ 
+ -  > [Performance evaluation](---)
 
 
 [^1]: [SlidePresentation1stDelivery](https://drive.google.com/drive/folders/19eqFpTNYTQZWTqECtUOLSaU-NNftseN5?usp=sharing)
