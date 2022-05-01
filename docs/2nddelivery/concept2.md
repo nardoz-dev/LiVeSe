@@ -20,7 +20,7 @@ These are the Results:
 
 This allow us to assert that...
 
-> *More People, light and crowd in the street implies more secure areas*
+`More People, light and crowd in the street implies more secure areas`
 
 ## Our Proposed Solution
 
@@ -32,11 +32,11 @@ Our idea of the final User experience:
 
 # Concept
 
-*`LiVeSe` is a smart security system that, through distributed station acquires, during night-time, environment information like the amount of crowd and the brightness of the street in order to evaluate and improve perceived safety of the urban area.*   
-  
+*`LiVeSe` is a smart security system. Through distributed stations acquires, during night-time, environment information like noise, light level and movement*
 
-*`LiVeSe` allow us to visualize the state of our streets and
-take actions to improve safety of our cities along with integrating Google maps navigation system*
+*`LiVeSe` tries to extrapolate the amount of crowd and the brightness of the street then evaluate perceived safety of the urban area based on that parameters*
+
+*`LiVeSe` allow us to visualize the state of our streets in terms of expected safety and improve perceived safety of our cities along with integrating Google maps navigation system*
 
 # Personas 
 
