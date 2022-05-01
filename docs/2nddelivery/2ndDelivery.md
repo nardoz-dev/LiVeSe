@@ -11,14 +11,21 @@ At the end of the first delivery we received the following comments :
 
 ### We address them as following: 
 
-1. We make explicit connection between the problem of safety, what type of data we want to collect and finally the use of Survey in order to understand opinions from other people about how our data will be relevant or not
-2. We define high level Logic and Cloud services we want to integrate in our System as Google Maps and AWS Analytic
-3. We Create our wiring architecture using [fritzing](https://fritzing.org/) tool
-4. We address requirements and consumption in Evaluation doc. Showing problems encountered 
+1. We explicit the connection between the problem of safety, what type of data we want to collect and finally the use of Survey in order to collect opinions from people and understand if sampled data will be relevant or not
+2. We explicit requirements to address during the development as well as decisions taken
+3. We define high level Logic and what Cloud services we want to integrate in our System : Google Maps and AWS Analytic
+4. We Create our wiring architecture using [fritzing](https://fritzing.org/) tool
+5. We address requirements and consumption in Evaluation doc. Showing problems encountered 
 
 ## Changes in the Concept and Evaluation
 
-We understand our initial mistakes and correct our ideas about concept through a more explicit and clear documentation and presentation. As consequence, we dealt with the evaluation trying many approaches in order to be as precise as possible. Unfortunately we ran into difficulties.
+We understand our initial mistakes and addressed suggestions after the first delivery.
+
+We correct our concept through a more explicit and *clear documentation*. We explicit intelligence expected and key metrics
+
+As consequence, we define more clearly *our requirements and logic* of computation as well as the *wiring architecture* of our device
+
+Finally, we dealt with the evaluation of power consumption trying *many approaches* in order to retrieve *the most reliable estimate possible*. Unfortunately we ran into difficulties
 
 ## Technical Work
 
@@ -35,27 +42,24 @@ Since the first delivery we focus our efforts on :
 - experimentation and evaluation of energy consumption 
   - FIT iot lab and Ammeter tests
 
-## 3th Delivery Roadmap 
+## Missing Functionalities for 3th Delivery  
 
-- resolve Problem related to ADC line of Lora Discovery board
-- find better microphone 
-- define optimal sample frequency and related sleep-active cycle
-- include servomotor and test improvements of PIR sensor
-- address evaluation of consumption with working ammeter
-- complete integration with AWS and GOOGLE maps APIs
-- create web dashboard 
+- data Visualization via web dashboard 
+- complete integration with AWS and Google maps APIs
 
-## Evaluation since 1th delivery and expected for 3th Delivery
+## Evaluation progress and expected for 3th Delivery
 
 - we evaluate power consumption of the sensors with different approaches 
 - we evaluate possible sample frequencies related to the power consumption
 - we evaluate quality of sensors in order to be effective for our measurement
 - we evaluate logic and wiring of our device
 
-We expect to test our network performance and integration with Cloud services as soon as possible.
+For our end delivery we will focus on :
 
-We will focus on a more precise way to evaluate our energy consumption and explore other ways to recharge batteries 
+- a more reliable way to evaluate energy consumption of our device
+- define an optimal sample frequency and related sleep-active cycle
+- include stepper motor and test improvements of PIR sensor
+- complete our development on the Lora Discovery kit and finalize our tests 
 
-Lastly we want to optimize as much as possible the code of devices in order to be efficient
-
+Lastly we will test our network performance and integration with Cloud services as soon as possible.
 
