@@ -60,5 +60,4 @@ Our idea of the final User experience:
 
 ##
 
-- link to 1th delivery:[^1]
-[^1]: [Concept.md](../1stdelivery/concept.md)
+> Link to first delivery [Concept.md](../1stdelivery/concept.md)
