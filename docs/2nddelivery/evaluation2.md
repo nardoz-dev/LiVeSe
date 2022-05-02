@@ -2,7 +2,7 @@
 
 | **Products** | **Power Consume** | **Power Consume on StandBy** | 
 | :---: | :---: | :---: | 
-| `Nucleo -f401re` | 300mA max | 100mA | 
+| `Nucleo -f401re` | 146µA max | 2.4µA | 
 | `Pir HC-SR501` | ~1 mA while motion is detected | ~40-60µAµA | 
 | `Mic KY-037` | ~1 mA | ~0 mA | 
 | `Photoresistor like GL5516` | ~0mA |  ~0mA | 
