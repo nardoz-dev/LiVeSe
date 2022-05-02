@@ -5,7 +5,7 @@
 | `Nucleo -f401re` | 146µA | 2.4µA | 
 | `Pir HC-SR501` | ~1 mA while motion is detected | ~40-60µA | 
 | `Mic KY-037` | ~1 mA | ~0 µA | 
-| `Photoresistor like GL5516` | ~0µA |  ~0µA | 
+| `Photoresistor like GL5516` | ~0 µA |  ~0 µA | 
 
 We try to gain a more efficient measurement about power energy with a specific tool like ammeter. We put two boards on series and evaluate what's the power consumption of the board. The output of our ammeter says that we consume *0,004A = ~4mA*. The main problem about this measure is that our ammeters give this results only if it's on a large scale of unit and so we think that it's broken.
 
