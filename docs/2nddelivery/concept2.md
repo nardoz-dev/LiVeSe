@@ -60,4 +60,4 @@ Our idea of the final User experience:
 
 ##
 
-> Link to first delivery [Concept.md](../1stdelivery/concept.md)
+> Link to first delivery [Concept](../1stdelivery/concept.md)
