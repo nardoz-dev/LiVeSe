@@ -54,4 +54,7 @@ We plan to update the data on the cloud each time the **LiveSe-Security variable
 
 We use LoRa communication protocol because of its low power consumption and long range. Its main constraint is the low bit rate but it is still suitable for our project.
 
-#### link to 1th delivery: [1th technology](../1stdelivery/technology.md)
+
+## 
+> Link to first delivery: [Technology](../1stdelivery/technology.md)
+
