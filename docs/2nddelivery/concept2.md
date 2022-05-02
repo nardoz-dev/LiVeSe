@@ -58,4 +58,7 @@ Our idea of the final User experience:
 - *The system provides a suggested path, the most secure possible* 
 - *The system voluntarily avoids unsecured roads or squares*
 
-#### link to 1th delivery: [1th concept](../1stdelivery/concept.md)
+##
+
+>link to 1th delivery:[^1]
+[^1]: [Concept.md](../1stdelivery/concept.md)
