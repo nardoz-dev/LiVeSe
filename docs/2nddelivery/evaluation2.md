@@ -81,5 +81,4 @@ The state of our integration with Cloud services is the following :
 - However we decide to concentrate our effort in the making of the device
   - We expect to complete the integration for the next delivery
 
-
-
+#### link to 1th delivery: [1th evaluation](../1stdelivery/evaluation.md)

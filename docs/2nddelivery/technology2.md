@@ -24,7 +24,7 @@ Our devices will be active during **night-time** for at least *10 hours every da
 - During this time They alternate sleep-active mode
 - We want devices to last at least for **one year** before changing batteries 
 
-We know that these devices will be mainly placed **in urban environments** therefore if possible devices will use the Power Grid
+We know that these devices will be mainly placed **in urban environments** :
 
 - Our stations will be installed in **elevated positions** and sensors must be able to capture ambient sensors at a given distance with respect to the road
 - sound sensor must capture noise and sound at least from 5-8 meters  
@@ -54,3 +54,4 @@ We plan to update the data on the cloud each time the **LiveSe-Security variable
 
 We use LoRa communication protocol because of its low power consumption and long range. Its main constraint is the low bit rate but it is still suitable for our project.
 
+#### link to 1th delivery: [1th technology](../1stdelivery/technology.md)

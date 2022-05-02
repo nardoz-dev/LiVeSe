@@ -57,3 +57,5 @@ Our idea of the final User experience:
 - *He connects to the designed app and receive information about that area*
 - *The system provides a suggested path, the most secure possible* 
 - *The system voluntarily avoids unsecured roads or squares*
+
+#### link to 1th delivery: [1th concept](../1stdelivery/concept.md)
