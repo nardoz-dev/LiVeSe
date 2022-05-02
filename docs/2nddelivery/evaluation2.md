@@ -7,7 +7,6 @@
 | `Mic KY-037` | ~1 mA | ~0 mA | 
 | `Photoresistor like GL5516` | ~0mA |  ~0mA | 
 
-
 We try to gain a more efficient measurement about power energy with a specific tool like ammeter. We put two boards on series and evaluate what's the power consumption of the board. The output of our ammeter says that we consume *0,004A = ~4mA*. The main problem about this measure is that our ammeters give this results only if it's on a large scale of unit and so we think that it's broken.
 
 ```
@@ -50,6 +49,29 @@ expected ~10h of Duty time every day
 ==
 50 days Expected Battery Life
 ```
+|sleep-active cycle (sec)  |active time every h | active hours 1 day | Expected Battery Life |
+|--|--|--|--|
+|2-4|40m|6.6h|50 days|
+
+## Accuracy of the PIR component
+
+The measure of how many people will pass through streets is taken by the PIR. Its accuracy can be an issue since the sensor will keep the data every 2 second. 
+As a consequence it could happen that the PIR can't detect effectively if a person pass or not in front of our station position.
+
+So in order to avoid this problem, in the future we want to apply a servo-motor\stepper-motor to improve the gradation of the angle that the PIR occupies.
+Taking into account that could probably have a greater impact in terms of consumption.
+
+## KY-037 microphone 
+
+We tried to use this sensor in order to gain a good sample of sound in the surrounding. However, this sensor seems to be made from low quality components: even if it is considered as a sensor module with 'high sensitivity' it is not able to perceive sounds or noise farther than a few centimeters 
+
+- We are currently searching for a new one 
+
+## LoRa Discovery Kit
+
+We encountered errors related to the **ADC-line** used by analog sensors when dealing with the Lora Discovery board, this has blocked our tests of network and slowed down integration with cloud services
+
+ - We were not able to make further test on the physical board 
 
 ## Integration with Cloud Services 
 
@@ -58,9 +80,6 @@ The state of our integration with Cloud services is the following :
 - We successfully be able to communicate with The Thing Network and AWS with our device 
 - However we decide to concentrate our effort in the making of the device
   - We expect to complete the integration for the next delivery
-- We encountered problems related to the *ADC line* of the board (2 of our sensors uses analog outputs)
-  - We implement some experiments in the FIT IOT lab 
-  - but We were not able to make further test on the physical board 
 
 
 

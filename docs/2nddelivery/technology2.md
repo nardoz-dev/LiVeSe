@@ -45,25 +45,6 @@ In depth the algorithm put the sum of the light_value, pir_value, mic_value in o
     ORANGE (Almost Secure)  => Final value from 33 to 67
     GREEN (Secure)          => Final value from 67 to 100.
 
-### Accuracy of the PIR component
-
-The measure of how many people will pass through streets is taken by the PIR. Its accuracy can be an issue since the sensor will capt the data every 2 second. 
-As a consequence it could happen that the PIR can't detect effectively if a person pass or not in front of our station position.
-
-So in order to avoid this problem, in the future we want to apply a servo-motor\stepper-motor to improve the gradation of the angle that the PIR occupies.
-Taking into account that could probably have a greater impact in terms of consumption.
-
-### KY-037 microphone 
-
-We tried to use this sensor in order to gain a good sample of sound in the surrounding. However, this sensor seems to be made from low quality components: even if it is considered as a sensor module with 'high sensitivity' it is not able to perceive sounds or noise farther than a few centimeters 
-
-- We are currently searching for a new one 
-
-
-### LoRa Discovery Kit
-
-We encountered errors related to the **ADC-line** used by analog sensors when dealing with the Lora Discovery board, this has blocked our tests of network and slowed down integration with cloud services
-
 ## Network 
 
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/Network.png)
