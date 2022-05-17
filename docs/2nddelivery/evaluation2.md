@@ -36,7 +36,7 @@ For now, we decide to read from each device every 2 seconds, and the board go to
 
 We Tried to experiment with FIT IOT lab and the average consumption was of *0.018A = ~18mA* as shown :
 
-![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/iotLabv2.jpg)
+![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_IoTLabTest2.jpg)
 
 under the same cycle (2-4):
 ```
