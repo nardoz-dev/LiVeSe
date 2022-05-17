@@ -16,7 +16,7 @@ Performance evaluation mainly concerns two aspects: evaluation of the performanc
 We provide the use of this tools : [`AirTime calculator`](https://avbentem.github.io/airtime-calculator/ttn/eu868/51) for LoRaWAN to calculate and optimize our airtime for a longer battery life and less gateway utilization.
 
 > *Ipotethical tool test results *[^1]*:*
-> ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/LoraToolTest.png)
+> ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/1_LoraToolTest.png)
 
 #### AWS
 > Amount of Data collected, data rates exchanges with cloud platform and related Cost 
@@ -44,7 +44,7 @@ To be on.
 | `SoundSensors TS-US-115-CA` | 4~5 mA | 4~5 mA |
 | `Antenna` | 500mA |  *None* |
 
-![](https://github.com/nardoz-dev/LiVeSe/blob/main/docs/sharedpictures/battery_management.jpg)
+![](https://github.com/nardoz-dev/LiVeSe/blob/main/docs/sharedpictures/1_BatteryManagement.jpg)
 
 Of course to gain a more efficent misuration about power energy will can use a specific tool like ammeter that we can misurate the powersupply on the device.  The board include a special pin like : Jumper JP5, labeled IDD, is used to measure the STM32 microcontroller consumption by removing the jumper and by connecting an ammeter:
 - JP5 ON: STM32 is powered (default)
