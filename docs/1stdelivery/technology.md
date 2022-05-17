@@ -26,7 +26,7 @@ IOT Device composed of a `Nucleo -f401re Board` , `Power Source` , `LoRa` module
 
 # Network Architecture
 
-![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/1_NetDiagram.png)
+![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_NetDiagram.png)
 
 ## Brief Description
 > After extracting Ambient parameters from sensors, the stations evaluate instantaneously safety level of the surroundings
