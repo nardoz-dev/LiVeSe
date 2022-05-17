@@ -47,7 +47,7 @@ In depth the algorithm put the sum of the light_value, pir_value, mic_value in o
 
 ## Network 
 
-![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/Network.png)
+![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_NetDiagram.png)
 
 
 We plan to update the data on the cloud each time the **LiveSe-Security variable changes**. This choice has been made considering the nature of the system which only needs to know the last measured LiveSe-Security. We’ll send to the cloud only our main variable, so we think that the bandwidth needed by each device is minimal. Having planned a **high update latency** implies fewer usage of the radio that can be turned off during sleep times saving energy.
