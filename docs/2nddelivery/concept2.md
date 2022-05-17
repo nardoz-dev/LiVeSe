@@ -2,7 +2,7 @@
 
 Taking into account the increase of violent cases, walking at night can make us feel **uncomfortable** and Public administration not every time is aware of the **degradation** of the neighborhoods
 
-![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/slums.jpg)
+![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_MainPurpose.jpg)
 
 We started from a simple question :
 
@@ -14,9 +14,9 @@ These are the Results:
 
 *Overnight before moving on an area, road or square, do you feel more secure passing through...*
 
-![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/GraficoIllumanatedOk.jpg)
-![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/GraficoNoiseOk.jpg)
-![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/GraficoCrowdedOkkk.jpg)
+![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_LightGraph.jpg)
+![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_NoiseGraph.jpg)
+![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_CrowdGraph.jpg)
 
 This allow us to assert that...
 
@@ -28,7 +28,7 @@ Therefore, we decide to exploit the benefits of IOT devices as *pervasive system
 
 Our idea of the final User experience:
 
-![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/mockup.jpg)
+![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_WebAppMockup.jpg)
 
 # Concept
 
