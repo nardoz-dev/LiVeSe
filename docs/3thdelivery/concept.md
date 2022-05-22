@@ -1,19 +1,17 @@
 # The Problem and our Assumption
 
-Taking into account the increase of violent cases, walking at night can make us feel **uncomfortable** and Public administration is not always aware of the **degradation** of neighborhoods.
+Taking into account the increase of violent cases, walking at night can make us feel **uncomfortable** and Public administration is not always aware of the **degradation** of neighborhoods
 
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_MainPurpose.jpg)
 
-Starting from that we tried to understand what could be done for enforce a higher feel of security in our cities 
+Starting from that we tried to understand what could be done to enforce a higher feel of security in our cities 
 
 we started from a simple question :
 
 > *Can we measure **safety** of urban areas through **ambient sensors** and density of points of interest in that area?* 
 
-We looked for **feedback** by opening an online Survey; 
-
-These are the Results: 
-
+We looked for **feedback** by opening an online Survey and these are the Results: 
+*** 
 *Overnight before moving on an area, road or square, do you feel more secure passing through...*
 
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_LightGraph.jpg)
