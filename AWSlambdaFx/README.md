@@ -2,6 +2,7 @@
 
 The thing network, Amazon Wes Services and Google Maps API defines all the cloud Integration with our project, these are the single modules we adopted
 
+
 ![image](../docs/sharedpictures/IntegrationAWS.png)
 
 - the Thing network Console 
