@@ -139,13 +139,13 @@ static void send_message(void)
 
 void create_msg(void){
     if(street_value==0){
-        message = "0";
+        message = "RED";
     }
     else if(street_value==1){
-        message ="1";
+        message ="YELLOW";
     }
     else{
-        message = "2";
+        message = "GREEN";
     }
 }
 
