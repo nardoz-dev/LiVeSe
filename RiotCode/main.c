@@ -297,12 +297,13 @@ int main(void)
 		printf("LIGHT ===> %d\t VOLUME ===> %d\t  PIR===> %s\n", light ,vol , pir_value ? "Movement Detected" : "No Movement Detected");
         printf("0--->RED!\t 1--->ORANGE!\t 2--->GREEN!\n----->Current Value is: %d\n\n",final_result);
 
-        if(final_result!=street_value){
+       // if(final_result!=street_value){
             street_value=final_result;
-            create_msg();
+            //create_msg();
+            message="YELLOW";
             printf("This is the messagge to send via Lora ----> %s\n",message);
-            //send_message();
-        }
+            send_message();
+        //}
         xtimer_sleep(SLEEP_LORA);
     }
 

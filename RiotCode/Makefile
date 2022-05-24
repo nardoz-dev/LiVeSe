@@ -8,7 +8,7 @@ BOARD ?=  b-l072z-lrwan1  #native  b-l072z-lrwan1 iotlab-m3
 
 
 # This has to be the absolute path to the RIOT base directory:
-RIOTBASE ?= $(CURDIR)/../RIOT
+RIOTBASE ?= $(CURDIR)/../../RIOT
 
 # Comment this out to disable code in RIOT that does safety checking
 # which is not needed in a production environment but helps in the
@@ -17,9 +17,13 @@ CFLAGS += -DDEVELHELP
 
 #Lora OTA
 
-DEVEUI ?= 70B3D57ED004FBE2
+#APPEUI ?= 0000000000000000
+#DEVEUI ?= 70B3D57ED004FBE2                        #ANTONIO
+#APPKEY ?= 6D70E2413BCB9E7CAECD628135306D8F
+
+DEVEUI ?= 70B3D57ED004FAEF
 APPEUI ?= 0000000000000000
-APPKEY ?= 6D70E2413BCB9E7CAECD628135306D8F
+APPKEY ?= AEEA78EFE6778AFFDBB6414A92C44A05
 
 # Send a message every 20s after joining the network
 
