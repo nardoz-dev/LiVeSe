@@ -18,6 +18,12 @@ We looked for **feedback** by opening an online Survey and these are the Results
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_NoiseGraph.jpg)
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_CrowdGraph.jpg)
 
+We also searched for Papers that relates **perception of safety** with the environment 
+
+> ![](../sharedpictures/table6.JPG)
+> [Evaluation of safety for Pedestrians at Macro- and Micro-levels in Urban Areas](https://onlinepubs.trb.org/Onlinepubs/trr/1995/1502/1502-012.pdf)
+
+
 These answers confirmed what we thought and allow us to assert that ...
 
 `More People, light and crowd in the street implies more secure areas`
