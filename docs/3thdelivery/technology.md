@@ -86,7 +86,7 @@ Finally, AWS Amplify module hosts a web dashboard where information from end dev
 
 
 The dashboard is available **[here](https://master.d3coclnags0r33.amplifyapp.com/)**
-![Image](../sharedpictures/Dashboard.jpg")
+![image](../sharedpictures/Dashboard.jpg)
 
 
 
