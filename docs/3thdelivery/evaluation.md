@@ -126,7 +126,7 @@ We should improve better the Time on Air of the packet, considering to send only
 We are still developing the one that in our idea is the best one,add a “bidirectional channel” using LoraWan,in this case we will be able to compute on the cloud,even with ML that obviusly performs better than a simple local logic AND allow us to develop a brand new feature,adapt the sampling rate on specific days,e.g. 1st of January,and even specific period,e.g. Covid-19 pandemic “”COPRIFUOCO”” and as a possibility,restart the board using Lora,generate Interrupt and a lot more.
 
 The `dashboard` is under development as u can see there, we managed to integrate the google api.
-![image]
+![image](../sharedpictures/Dashboard.jpg)
 
 The last important improvements it's the `mic sensor`. In our system we use the KY-037, but with this components we have a huge problems. This mic can listen only BIG CHANGE of volume, and for our purposes it is not so useful, because we should be able to "detect" the sound of the human voice. We tried replacing the microphone with "SPH04645 I2S Mic " but in this case is very hard to handle this component with the riot documentation. We still try it but it requires a lot of time.
 
