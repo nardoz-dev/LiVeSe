@@ -16,6 +16,11 @@
 
 - Sound Sensors [*KY-037*](https://win.adrirobot.it/sensori/37_in_1/KY-037_KY-038-Microphone-sound-sensor-module.htm) capturing Loudness of that area Data Captured 
 
+#### Solar Panel Recharge + Alimentation 
+- Solar Panel with small cell : 12V 1.5W that means we have the output of ~125mA.
+- Diodo 1N4007 , 1A 1000V
+- Voltage Step Up Boost Module USB Charger Blue DC-DC 0.9V-5V 
+- BatteryPack AA x4 `Ni-MH` 1.2V 2000mAh
 
 ## Requirements and Logic 
 
