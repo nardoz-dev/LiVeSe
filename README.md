@@ -19,15 +19,15 @@
 ### Final Delivery
 
 #### *BlogPost*
-- >[BLogPost]()
+- >[BlogPost]()
 
 #### *Document Links*[^3]
 
- -  >[Concept]()
+ -  >[Concept](https://github.com/nardoz-dev/projectName/blob/main/docs/3thdelivery/concept.md)
 
- -  >[Technology]()
+ -  >[Technology](https://github.com/nardoz-dev/projectName/blob/main/docs/3thdelivery/technology.md)
 
- -  >[Evaluation]()
+ -  >[Evaluation](https://github.com/nardoz-dev/projectName/blob/main/docs/3thdelivery/evaluation.md)
  
  ####  *Videos links*
   
