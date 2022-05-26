@@ -1,3 +1,4 @@
+![image](/docs/sharedpictures/logo.jpg)
 # LiVeSe
 `LiVeSe` - IoT University Group Project for the IoT 2022 Course @ Sapienza University of Rome.
 
