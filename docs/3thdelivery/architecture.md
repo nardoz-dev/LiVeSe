@@ -17,10 +17,10 @@
 - Sound Sensors [*KY-037*](https://win.adrirobot.it/sensori/37_in_1/KY-037_KY-038-Microphone-sound-sensor-module.htm) capturing Loudness of that area Data Captured 
 
 #### Solar Panel Recharge + Alimentation 
-- Solar Panel with small cell : 12V 1.5W that means we have the output of ~125mA.
-- Diodo 1N4007 , 1A 1000V
-- Voltage Step Up Boost Module USB Charger Blue DC-DC 0.9V-5V 
-- BatteryPack AA x4 `Ni-MH` 1.2V 2000mAh
+- [*Solar Panel with small cell : 12V 1.5W*](https://www.amazon.it/gp/product/B077JJPK63/ref=ox_sc_act_title_5?smid=A26FRN1T6ZMEY7&psc=1#HLCXComparisonWidget_feature_div) with output of ~125mA.
+- [*Diodo 1N4007*](https://www.amazon.it/Haobase-100pcs-IN4007-DO-41-diodo-raddrizzatore-1000/dp/B01F4SQ6KU/ref=sr_1_10?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3F94J5XG8YXWE&keywords=diodo+n4007&qid=1653065288&sprefix=diodo+%2Caps%2C76&sr=8-10), 1A 1kV
+- [*Voltage Step Up Boost Module USB Charger Blue DC-DC 0.9V-5V*](https://www.amazon.com/gp/product/B00HG9SB7C/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00HG9SB7C&linkCode=as2&tag=opegreene-20&linkId=FNKWH7VYDJEAXPOM)
+- [*BatteryPack AA x4 `Ni-MH` 1.2V 2000mAh*](https://www.amazon.it/AmazonBasics-Ricaricabili-precaricate-confezione-Involucro/dp/B00CWNMR5Y/ref=sr_1_8?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=SMYI12E16FTB&keywords=batteria%2Baa%2Bricaricabile&qid=1653128512&sprefix=batteria%2Baa%2Bricaricabile%2Caps%2C79&sr=8-8&th=1)
 
 ## Requirements and Logic 
 
