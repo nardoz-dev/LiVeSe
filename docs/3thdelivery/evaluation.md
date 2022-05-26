@@ -2,10 +2,10 @@
 
 ## Requirements: 
 
-> - The duration of the device during the night.
-> - The accuracy of the pir should be very high.
-> - The system must be energy independent for at least a year.
-> - The system must be an optimal sample frequency.
+> - No Battery constraint!
+> - Better Accuracy of the PIR!
+> - Better Sample Frequency Rate
+> - Small Network Usage.
 
 ## Energy consumption 
 
@@ -95,14 +95,14 @@ Another way to improve the battery is to upgrade the sampling rate.
 ## Sampling Frequency analysis
 
 To compute our **environmental variable** we tried different approaches:
-- Constant Sampling 
-- -  In this case obviously we got the more accurate results but our lifetime cycle goes down to a few weeks, and the battery goes down very fast!
+- Constant Sampling :
+- -  It's the simplest one. In this case obviously we got the more accurate results but our lifetime cycle goes down to a few weeks, and the battery goes down very fast! Moreover, continuous sensing does not make much sense in our case, for example if we put our devices on a isolated street, the clamping of the output value it will be ever the same, so it doesn't make sense.
 - Defined Sampling time
-- - To do this we studied some real life cases: how much time a person need to pass through a distance of 20 meters?(the distance that our PIR can cover at a given distance with an angle of 110 degree) so we switched to a Sampling time of 7 seconds, constant, alternating 7 seconds of sleep and some milliseconds of running mode for the whole night. Clearly the power consumption was much better but not enough again
+- - To do this we studied some real life cases: how much time a person need to pass through a distance of 20 meters?(the distance that our PIR can cover at a given distance with an angle of 110 degree) so we switched to a Sampling time of 7 seconds, constant, alternating 7 seconds of sleep and some milliseconds of running mode for the whole night. Clearly the power consumption was much better. Even in this case is not a very efficent solution because if we put a defined sampling time it could happen that the "off" period coincides with the moment in which a person walks in front of the device so the output of devices not changes but actually the road could be safer than first.
 - Variable Sampling Time(No ML):
-- - At this point we figured out that the variables that we measure don't change rapidly,so,why sample every 7 seconds without any reason? There are a lot of possible ways here,and we are still triying some of them to understand what fit better for our purpose.
+- - At this point we figured out that the variables that we measure don't change rapidly,so,why sample every 7 seconds without any reason? There are a lot of possible ways here,and we are still triying some of them to understand what fit better for our purpose. On of the idea is to use an very simple internal algorithm that store an aux variable for the last output, and compare it with other small parameters like a counter of the same hit output results.
 
-### PIR 
+### PIR Accuracy
 The approaches that we tested more and seems more interesting are two:
 - Pir Counter
 - - In this approach the PIR Scan every 10 seconds to be accurate but in this case if he detects someone his thread initialize a counter that will stop the scanning time: this because we **DONT WANT TO COUNT HOW MANY PEOPLE passing through but we want to measure IF A SPECIFIC ROAD IS CROWDED OR NOT,** in principle we chosed the wrong approach cause of the accuracy of the testing,we don’t expect to detect all of the person,but THE TIME THAT “intercor” BETWEEN THE TWO EVENTS! 
