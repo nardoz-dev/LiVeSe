@@ -90,7 +90,7 @@ To resolve this problem u can use the Lithium Battery Charging Board that has th
 
 So to avoid this lot of problem with Li-Ion battery we use the Ni-MH.
 
-Another way to improve the battery is to upgrade the sampling rate.
+So essentialy with this configuration we could never care about battery life, again as we have installed an auto-energetic system. The most important difficult is only when for 1 month every day never appear the sun, but in on a realistic scenario there's a low possibility that it could happened. But if it's happened we can keep our device alive at most for 50 days if the battery are full charged.
 
 ## Sampling Frequency analysis
 

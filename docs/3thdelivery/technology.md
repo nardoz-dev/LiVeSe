@@ -83,9 +83,10 @@ AWS Dynamo Database is composed by a single table `LiVeSeDB(devEUI,street,last_s
 Finally, AWS Amplify module hosts a web dashboard where information from end devices are merged and visualized using the Google Maps APIs.
 
 ## Dashboard and Visualization
--- how works dashboard --
 
-The dashboard is available **[here]()**
+
+The dashboard is available **[here](https://master.d3coclnags0r33.amplifyapp.com/)**
+![image](../sharedpictures/Dashboard.jpg)
 
 
 
