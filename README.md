@@ -78,6 +78,6 @@
 
 [^1]: [SlidePresentation1stDelivery](https://drive.google.com/drive/folders/19eqFpTNYTQZWTqECtUOLSaU-NNftseN5?usp=sharing)
 [^2]: [SlidePresentation2ndDelivery](https://docs.google.com/presentation/d/1aP55nPdbY1ZenbVbF0CaU0JsQ-7Elh2Z/edit?usp=sharing&ouid=113907955486241385726&rtpof=true&sd=true)
-[^3]: [SlidePresentation3thDelivery]()
+[^3]: [SlidePresentation3thDelivery](https://docs.google.com/presentation/d/1mPQemFovK-Od_Pb9_4USkjiKXj0tQ7ip/edit?usp=sharing&ouid=110812238791378912248&rtpof=true&sd=true)
 
 
