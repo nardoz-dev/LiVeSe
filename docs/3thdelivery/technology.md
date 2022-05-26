@@ -8,7 +8,7 @@
 
 ## Components
 
-- [*Nucleo -f401re Board*](https://www.st.com/en/evaluation-tools/nucleo-f401re.html) is a 32-bit ARM based microcontroller. The board will run RIOT OS used to make it as easy as possible the coding of network functionalities and sensor drivers
+- [*B-L072Z-LRWAN1*](https://www.st.com/en/evaluation-tools/b-l072z-lrwan1.html) is a 32-bit ARM based microcontroller. The board will run RIOT OS used to make it as easy as possible the coding of network functionalities and sensor drivers
 
 - Photoresistors [*GL 55 photoresistor*](https://www.kth.se/social/files/54ef17dbf27654753f437c56/GL5537.pdf) used to evaluate the Light level of the specific Road or square during night time
 
