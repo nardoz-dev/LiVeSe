@@ -59,7 +59,7 @@ The first things that we think to improve the battery life, is to use a free ene
 
 ## Solar Panel for Battery!
 
-In the end we expect to have a consumption of about ~4mA, so for us it isn't a very problem the battery. But the main drawback of battery operated device is that it will be depleted after a certain time. This drawback can be eliminated by using natural resources like solar, wind or hydro energy. The most free source of energy to recharge the battery is solar energy. It is a relatively simple and cheap.
+The main drawback of battery operated device is that it will be depleted after a certain time. This drawback can be eliminated by using natural resources like solar, wind or hydro energy. The most free source of energy to recharge the battery is solar energy. It is a relatively simple and cheap.
 
 So we need to undestand first the type of battery, the common battery device are NiMH and Li-Ion.
 The first facts to understand for battery charging is the thumb rule of 1/10th (commonly know as C/10). That means to charge the battery pack at 1/10th its rated current requires 16 hours of charge time. 
@@ -80,7 +80,7 @@ The main source for powering the sensor module is a solar panel. So it must be a
 
 > 2. Current : must be the current taken by the board plus the current for charging.
 
-If we follow this simple tricks, in our case we use four battery AA (1.2 cad.) in series, that means we have 4.8V and the required voltage for solar panel is : 4.8 * 1.5 = ~7.2V. The quantity of the current that the solar panel must generate it will be the current cost of the board ( previusly estimated to 4mA and the current used in order to charge the battery : 2000mAh : C/10 Rule => 200mAh.
+If we follow this simple tricks, in our case we use four battery AA (1.2 cad.) in series, that means we have 4.8V and the required voltage for solar panel is : 4.8 * 1.5 = ~7.2V. The quantity of the current that the solar panel must generate it will be the current cost of the board ( previusly estimated to 100mA and the current used in order to charge the battery : 2000mAh : C/10 Rule => 200mAh for a total to 300mAh).
 
 #### Choose the type of battery 
 As we say before, this is a little problem, but don't worry we can use the same circuit in order to recharge same NiMh and Li-Ion battery. The problem stand only for the Li-Ion batterys :
