@@ -17,7 +17,6 @@ We looked for **feedback** by opening an online Survey and these are the Results
 | Light Graph | Noise Graph |
 |--------|--------|
 |  ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_LightGraph.jpg)  |  ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_NoiseGraph.jpg)  |
-|--------|
 
 | Crowd Graph |
 |--------|
