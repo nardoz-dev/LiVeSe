@@ -33,12 +33,12 @@
 
 char *message = "This is LiveSe!";
 
-static uint8_t deveui[LORAMAC_DEVEUI_LEN];
-static uint8_t appeui[LORAMAC_APPEUI_LEN];
-static uint8_t appkey[LORAMAC_APPKEY_LEN];
+//static uint8_t deveui[LORAMAC_DEVEUI_LEN];
+//static uint8_t appeui[LORAMAC_APPEUI_LEN];
+//static uint8_t appkey[LORAMAC_APPKEY_LEN];
 
 //Global variables
-bool LoraOk=false;
+//bool LoraOk=false;
 char stackPir[THREAD_STACKSIZE_DEFAULT];
 char stackCompute[THREAD_STACKSIZE_DEFAULT];
 kernel_pid_t pid_read = 0;
@@ -48,7 +48,7 @@ uint8_t sample = 0;
 uint8_t lux = 0;
 pir_t dev;	
 uint8_t mic_Samp = 0;
-uint8_t light_Samp = 0;
+int LIGHT_samp = 0;
 uint8_t old_Light = 78;
 uint8_t vol = 0;
 uint8_t light =0;
@@ -61,7 +61,7 @@ uint8_t street_value=101;
 bool same_read_mic=false;
 uint8_t sleep_sensors=5;
 
-
+/*
 void LoraInit(void){
 
     // Drivers Setup
@@ -87,7 +87,7 @@ void LoraInit(void){
     //semtech_loramac_set_dr(&loramac, LORAMAC_DR_5);
 
    
-    /*
+    
     if (!semtech_loramac_is_mac_joined(&loramac)) {
         
         puts("Starting join procedure");
@@ -96,13 +96,14 @@ void LoraInit(void){
             return;
         }
     }
-    */
+    
     puts("Join procedure succeeded");
 }
-
+*/
+/*
 static void send_message(void){
     printf("Sending: %s\n", message);
-    /*
+    
     uint8_t ret = semtech_loramac_send(&loramac, (uint8_t *)message, strlen(message));
     while(ret!= SEMTECH_LORAMAC_TX_DONE){
     ret = semtech_loramac_send(&loramac, (uint8_t *)message, strlen(message));
@@ -113,9 +114,10 @@ static void send_message(void){
         printf("Cannot send message '%s', ret code: %d\n", message, ret);
         return;
     }
-	*/
+	
 }
-
+*/
+/*
 void create_msg(void){
     if(street_value==0){
         message = "RED";
@@ -127,6 +129,7 @@ void create_msg(void){
         message = "GREEN";
     }
 }
+ */
     
 /* Algorithm 1.0 (More precise)
 int computeAlg(int l,int v,pir_event_t m){
@@ -157,7 +160,7 @@ uint8_t computeAlgNoMIC(uint8_t l,pir_event_t m){
 void *pir_handler(void* arg){
     (void) arg;
     while(1){
-        puts("Sono nel thread PIR");
+        //puts("Sono nel thread PIR");
         if(pir_counter!=0){
             pir_counter-=1;
             if(same_read_mic){
@@ -186,21 +189,25 @@ void *read_handler(void *arg) {
     
     (void)arg;
     while(1){
-        puts("Ciao sono nel Thread di lettura!");
-   	/*
+        //puts("Ciao sono nel Thread di lettura!");
+   	
     
        
         //Main loop
         
-        MIC_samp = adc_sample(ADC_MIC, ADC_RES);        
-        vol = adc_util_map(MIC_samp, ADC_RES, 1, 25);
-        LIGHT_samp = adc_sample(ADC_LIGHT, ADC_RES);        
+        //MIC_samp = adc_sample(ADC_MIC, ADC_RES);        
+        //vol = adc_util_map(MIC_samp, ADC_RES, 1, 25);
+        LIGHT_samp = adc_sample(ADC_LIGHT, ADC_RES);
+               
         light = adc_util_map(LIGHT_samp, ADC_RES, 1, 60);
+        //printf("LIGHT RAW : %d \n ", LIGHT_samp) ;
+        //printf("LIGHT CONVERTED : %d \n \n \n ", light) ;
         
-        if(|old_Light-Light| <=5){
+        if(abs(old_Light-light) <=5){
             same_read_mic=true;
             sleep_sensors=10;
         }
+        
         else{
             same_read_mic=false;
             sleep_sensors=5;
@@ -209,7 +216,7 @@ void *read_handler(void *arg) {
 
         //Algorithm to interpolate data from sensors
         current_result=computeAlgNoMIC(light,pir_value);
-        */
+        
         if(current_result <=33){
             final_result=0;                                 //Not secure ----> RED STREET
         }
@@ -220,10 +227,11 @@ void *read_handler(void *arg) {
             final_result=2;                                 //Secure -----> GREEN STREET
         }
         old_Light=light;
+        
         xtimer_sleep(sleep_sensors);
+        
     }
-
-    
+  
     return NULL;
 }
 
@@ -236,6 +244,7 @@ int main(void){
 	if (adc_init(ADC_MIC) < 0) {
         return 1;
     }
+    */
     if (adc_init(ADC_LIGHT) < 0) {
         return 1;
     }
@@ -247,7 +256,7 @@ int main(void){
 	if(pir_init( &dev, &params) != 0 ){
 		return 0;
     }
-    */
+    
     //LoraInit();
     
 	pid_read = thread_create(stackCompute, sizeof(stackCompute),
@@ -277,9 +286,9 @@ int main(void){
             //create_msg();
             message="YELLOW";
             printf("This is the messagge to send via Lora ----> %s\n",message);
-            send_message();
+            //send_message();
         //}
-       // xtimer_sleep(SLEEP_LORA);
+        xtimer_sleep(SLEEP_LORA);
     }
 
     //This will be never executed
