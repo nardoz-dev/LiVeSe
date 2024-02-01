@@ -2,6 +2,7 @@
 
 Taking into account the increase of violent cases, walking at night can make us feel **uncomfortable** and Public administration is not always aware of the **degradation** of neighborhoods
 
+| General Crimes | 
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_MainPurpose.jpg)
 
 Starting from that we tried to understand what could be done to enforce a higher feel of security in our cities 
@@ -12,7 +13,7 @@ we started from a simple question :
 
 We looked for **feedback** by opening an online Survey and these are the Results: 
 *** 
-*Overnight before moving on an area, road or square, do you feel more secure passing through...*
+*The Question was : Overnight before moving on an area, road or square, do you feel more secure passing through...*
 
 | Light Graph | Noise Graph |
 |--------|--------|

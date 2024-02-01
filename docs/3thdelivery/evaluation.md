@@ -2,10 +2,17 @@
 
 ## Requirements: 
 
-> - No Battery constraint!
-> - Better Accuracy of the PIR!
-> - Better Sample Frequency Rate
-> - Small Network Usage.
+In our project we have four important requirements. All of them are specific for our porpuse, and can upgrade the efficiency of our system.
+
+> 1. No Battery constraint!
+> 2. Better Accuracy of the PIR!
+> 3. Better Sample Frequency Rate
+> 4. Small Network Usage.
+
+1. The Battery constraint is an interesting point, because take into account the lifetime of our battery due to the constraint of the power consumption of the small iot devices installed in our device. In fact in order to improve the battery lifetime expectation of our device, we supposed to install a solar panel system. Of course we need to study how and what kind of solar panel we need to install for our purpose. Below we take into account a more detailed explanation [about that](#energy-consumption). 
+2. Since the purpose of our PIR is to measure if a specific road is crowded or not, we use our sampling and algorithm idea in order to have an efficient evaluation of the data that has been readed from the component. [Here](#pir-accuracy) you can see the details. 
+3. Sample Frequency Rate is very important because if it is small it can causes high peak of energy loss consumption, if it is too hight the purpose of the device can't be reach so it would be useless. Details [here](#sampling-frequency-analysis)
+4. Of course also the size of the packet that we want to send over the internet need to be small, fast, and we want to avoid latency as much as possibile. [Details](#network-usage)
 
 ## Energy consumption 
 
@@ -61,7 +68,10 @@ The first things that we think to improve the battery life, is to use a free ene
 
 The main drawback of battery operated device is that it will be depleted after a certain time. This drawback can be eliminated by using natural resources like solar, wind or hydro energy. The most free source of energy to recharge the battery is solar energy. It is a relatively simple and cheap.
 
-So we need to undestand first the type of battery, the common battery device are NiMH and Li-Ion.
+So we need to undestand first the type of battery, the common battery device are NiMH and Li-Ion. 
+The first difference is that Li-Ion battery deliver higher voltage power than the NiMH
+Raccolta dei materiali piu dannosa
+Si usurano piu velocemente nel tempo.
 The first facts to understand for battery charging is the thumb rule of 1/10th (commonly know as C/10). That means to charge the battery pack at 1/10th its rated current requires 16 hours of charge time. 
 
 #### C/10 Rule 
