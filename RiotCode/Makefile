@@ -2,7 +2,8 @@
 APPLICATION = LiVeSeMain
 
 # If no BOARD is found in the environment, use this default:
-BOARD ?=  b-l072z-lrwan1  #native  b-l072z-lrwan1 iotlab-m3 
+#BOARD ?=  b-l072z-lrwan1  #native  b-l072z-lrwan1 iotlab-m3 
+BOARD ?= nucleo-f401re
 
 #CONTINUE_ON_EXPECTED_ERRORS=1
 
@@ -34,13 +35,13 @@ DOCKER_ENV_VARS += APPEUI
 DOCKER_ENV_VARS += APPKEY
 
 # Default radio driver is Semtech SX1276 (used by the B-L072Z-LRWAN1 board)
-DRIVER ?= sx1276
+# DRIVER ?= sx1276
 
 # Default region is Europe and default band is 868MHz
-LORA_REGION ?= EU868
+# LORA_REGION ?= EU868
 
 # Include the Semtech-loramac package
-USEPKG += semtech-loramac
+# USEPKG += semtech-loramac
 
 USEMODULE += $(DRIVER)
 USEMODULE += fmt
@@ -70,11 +71,12 @@ FEATURES_REQUIRED+= periph_adc
 #lora
 #FEATURES_REQUIRED+= periph_i2c  
 
-ifndef CONFIG_KCONFIG_USEMODULE_LORAWAN
+
+#ifndef CONFIG_KCONFIG_USEMODULE_LORAWAN
   # OTAA compile time configuration keys
-  CFLAGS += -DCONFIG_LORAMAC_APP_KEY_DEFAULT=\"$(APPKEY)\"
-  CFLAGS += -DCONFIG_LORAMAC_APP_EUI_DEFAULT=\"$(APPEUI)\"
-  CFLAGS += -DCONFIG_LORAMAC_DEV_EUI_DEFAULT=\"$(DEVEUI)\"
-endif
+ # CFLAGS += -DCONFIG_LORAMAC_APP_KEY_DEFAULT=\"$(APPKEY)\"
+ # CFLAGS += -DCONFIG_LORAMAC_APP_EUI_DEFAULT=\"$(APPEUI)\"
+ # CFLAGS += -DCONFIG_LORAMAC_DEV_EUI_DEFAULT=\"$(DEVEUI)\"
+#endif
 
 include $(RIOTBASE)/Makefile.include
