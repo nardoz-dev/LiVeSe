@@ -9,9 +9,9 @@ In our project we have four important requirements. All of them are specific for
 > 3. Better Sample Frequency Rate
 > 4. Small Network Usage.
 
-1. The Battery constraint is an interesting point, because take into account the lifetime of our battery due to the constraint of the power consumption of the small iot devices installed in our device. In fact in order to improve the battery lifetime expectation of our device, we supposed to install a solar panel system. Of course we need to study how and what kind of solar panel we need to install for our purpose. Below we take into account a more detailed explanation [about that](#energy-consumption). 
+1. The Battery constraint is an interesting point, because it takes into account the lifetime of our battery due to the constraint of the power consumption of the sensors installed in our device. In fact in order to improve the battery lifetime expectation of our device, we supposed to install a solar panel system. Of course we need to study how and what kind of solar panel we need to install for our purpose. Below we take into account a more detailed explanation [about that](#energy-consumption). 
 2. Since the purpose of our PIR is to measure if a specific road is crowded or not, we use our sampling and algorithm idea in order to have an efficient evaluation of the data that has been readed from the component. [Here](#pir-accuracy) you can see the details. 
-3. Sample Frequency Rate is very important because if it is small it can causes high peak of energy loss consumption, if it is too hight the purpose of the device can't be reach so it would be useless. Details [here](#sampling-frequency-analysis)
+3. Sample Frequency Rate is very important because if it is small it can causes high peak of energy loss consumption, if it is too hight the purpose of the device can't be reached so it would be useless. Details [here](#sampling-frequency-analysis)
 4. Of course also the size of the packet that we want to send over the internet need to be small, fast, and we want to avoid latency as much as possibile. [Details](#network-usage)
 
 ## Energy consumption 
@@ -24,7 +24,7 @@ In our project we have four important requirements. All of them are specific for
 | `Photoresistor like GL5516` | ~0 µA |  ~0 µA | 
 
 The major constraint that we have is energy consumption.
-We try to gain a more efficient measurement about power energy with a specific tool like ammeter. We put two boards on series and evaluate what's the power consumption of the board. The output of our ammeter says that we consume *0,004A = ~4mA*. The main problem about this measure is that our ammeters give this results only if it's on a large scale of unit without fusibile.
+We try to gain a more efficient measurement about power energy with a specific tool like an ammeter with two boards on series and evaluating the current taken in input of the second board, where the first one is equipped with all the sensors. The output of our ammeter says that we consume *0,004A = ~4mA*. The main problem about this measure is that our ammeters give this results only if it's on a large scale of unit without fusibile.
 
 ```
 66000mAh Battery Capacity (3xAAA)
@@ -41,7 +41,7 @@ expected ~10h of Duty time every day
 |2-4|40m|6.6h | 250 days |
 |4-2|20m|3.3h | 500 days |
 
-So in order to estimate the value of our total energy consumption, we try to obtain the data sheet of our all component.
+So, to estimate the value of the energy consumed, we used the information provided by the components datasheet.
 
 Dissatisfied with the result we tried to experiment with FIT IOT lab and the average consumption was of *0.018A = ~18mA* as shown :
 
@@ -62,26 +62,24 @@ expected ~10h of Duty time every day
 |--|--|--|--|
 |2-4|40m|6.6h|50 days|
 
-The first things that we think to improve the battery life, is to use a free energy.
+The first way to improve the lifetime is to introduce something to produce energy.
 
 ## Solar Panel for Battery!
 
 The main drawback of battery operated device is that it will be depleted after a certain time. This drawback can be eliminated by using natural resources like solar, wind or hydro energy. The most free source of energy to recharge the battery is solar energy. It is a relatively simple and cheap.
 
 So we need to undestand first the type of battery, the common battery device are NiMH and Li-Ion. 
-The first difference is that Li-Ion battery deliver higher voltage power than the NiMH
-Raccolta dei materiali piu dannosa
-Si usurano piu velocemente nel tempo.
+The first difference is that Li-Ion battery deliver higher voltage power than the NiMH.
 The first facts to understand for battery charging is the thumb rule of 1/10th (commonly know as C/10). That means to charge the battery pack at 1/10th its rated current requires 16 hours of charge time. 
 
 #### C/10 Rule 
-Is a simple rule, for example if we have a 2xAA-sized 1300mAh battery pack 1.2V per cell, with cells in series, our pack outputs is 2.4V and 1300mAh. 
+Is a simple rule, for example if we have a 2xAA-sized 1300mAh battery pack 1.2V per cell, with cells in series, our pack output is 2.4V and 1300mAh. 
 So we need to do this simple calculation :  
 - C = 1300mAh
 - C/10 = 130mAh
 So to charge the above battery pack we need a higher voltage (2.4 to 3V) with a maximum current of 130mAh. In this example we need 16 hours to fully charge the battery pack. 
 
-If we increase the current along the current from C/10 don't worry we will reduced only the life of battery.
+If we increase the current given by the C/10 rule the batteries will suffer a decreased lifetime.
 
 #### Choose of solar panel
 The main source for powering the sensor module is a solar panel. So it must be able to provide current for powering the board as well as current to charge the battery pack during the day. To choose the correct voltage of the panel we need to follow two simple tricks: 
@@ -90,17 +88,17 @@ The main source for powering the sensor module is a solar panel. So it must be a
 
 > 2. Current : must be the current taken by the board plus the current for charging.
 
-If we follow this simple tricks, in our case we use four battery AA (1.2 cad.) in series, that means we have 4.8V and the required voltage for solar panel is : 4.8 * 1.5 = ~7.2V. The quantity of the current that the solar panel must generate it will be the current cost of the board ( previusly estimated to 100mA and the current used in order to charge the battery : 2000mAh : C/10 Rule => 200mAh for a total to 300mAh).
+If we follow this simple tricks, in our case we use four battery AA (1.2 cad.) in series, that means we have 4.8V and the required voltage for solar panel is : 4.8 * 1.5 = ~7.2V. The quantity of current that the solar panel must generate is the current cost of the board ( previusly estimated to 100mA and the current needed to charge the battery pack : 2000mAh : C/10 Rule => 200mAh for a total to 300mAh).
 
 #### Choose the type of battery 
-As we say before, this is a little problem, but don't worry we can use the same circuit in order to recharge same NiMh and Li-Ion battery. The problem stand only for the Li-Ion batterys :
-> You must take certain precautions when dealing with Lithium Ion Batteries. In order to maintain a very precise voltage when charging. For example the 4.8V batteries we're using need to have a charging volta of 7.2V. A volt high or a volt low can mean an out of control chemical reaction, which can lead to danger!
+As said before, this is a little problem, but don't worry we can use the same circuit to recharge NiMh and Li-Ion battery. The problem stands only for the Li-Ion batteries :
+> You must take certain precautions when dealing with Lithium Ion Batteries. In order to maintain a very precise voltage when charging. For example the 4.8V batteries we're using need to have a charging volt of 7.2V. A vdifferent voltage  mean an out of control chemical reaction, which can lead to danger!
 
-To resolve this problem u can use the Lithium Battery Charging Board that has the recharge protection. There are a lot of type of Lithium Battery Chargin Board, all turns off when finished to recharge the battery. The integrated protection circuit protects against overvoltage and polarity reversal. For that is important the wiring connection.
+To resolve this problem it is possible to use Lithium Battery Charging Board that has the recharge protection. There are a lot of type of Lithium Battery Charging Boards, all turns off when finished to recharge the battery. The integrated protection circuit protects against overvoltage and polarity reversal. For that is important the wiring connection.
 
-So to avoid this lot of problem with Li-Ion battery we use the Ni-MH.
+So to avoid this kind of problems with Li-Ion batteries we decided to switch to the Ni-MH.
 
-So essentialy with this configuration we could never care about battery life, again as we have installed an auto-energetic system. The most important difficult is only when for 1 month every day never appear the sun, but in on a realistic scenario there's a low possibility that it could happened. But if it's happened we can keep our device alive at most for 50 days if the battery are full charged.
+So essentialy with this configuration we can no longer think about the problem of expected lifetime, again as we have installed an auto-energetic system. The most important difficulty is when for 1 month every day never appear the sun, but in on a realistic scenario there's a low possibility that it could happened. But if it's happened we can keep our device alive at most for 50 days if the battery are full charged.
 
 ## Sampling Frequency analysis
 
