@@ -43,7 +43,7 @@ This bring us to affirm that :
 
 *`LiVeSe` allow us to visualize the state of our streets in terms of expected safety and improve perceived safety of our cities along with integrating Google maps navigation system*
 
-Indeed, we decide to exploit the benefits of IOT devices as *pervasive systems* to collect data from streets and squares, evaluate safety with our algorithm, and visualize our results with the help of Cloud Services. 
+Indeed, we decide to exploit the benefits of IoT devices as *pervasive systems* to collect data from streets and squares, evaluate safety with our algorithm, and visualize our results with the help of Cloud Services. 
 
 This is our mockup idea for the final User experience:
 
