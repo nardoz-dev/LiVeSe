@@ -16,6 +16,8 @@ In our project we have four important requirements. All of them are specific for
 
 ## Energy consumption 
 
+#### What we found by visiting datasheet for each components : 
+
 | **Products** | **Power Consume** | **Power Consume on StandBy** | 
 | :---: | :---: | :---: | 
 | `B-L072Z-LRWAN1` | 146µA | 2.4µA | 
@@ -25,6 +27,9 @@ In our project we have four important requirements. All of them are specific for
 
 The major constraint that we have is energy consumption.
 We try to gain a more efficient measurement about power energy with a specific tool like an ammeter with two boards on series and evaluating the current taken in input of the second board, where the first one is equipped with all the sensors. The output of our ammeter says that we consume *0,004A = ~4mA*. The main problem about this measure is that our ammeters give this results only if it's on a large scale of unit without fusibile.
+
+
+#### This instead is a measure for the expectation lifetime of our devices that is power on with 3 battery AAA NiMh.
 
 ```
 66000mAh Battery Capacity (3xAAA)
@@ -43,7 +48,7 @@ expected ~10h of Duty time every day
 
 So, to estimate the value of the energy consumed, we used the information provided by the components datasheet.
 
-Dissatisfied with the result we tried to experiment with FIT IOT lab and the average consumption was of *0.018A = ~18mA* as shown :
+#### Dissatisfied with the result we tried to experiment with FIT IOT lab and the average consumption was of *0.018A = ~18mA* as shown :
 
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_IoTLabTest2.jpg)
 
@@ -121,7 +126,7 @@ At this point it’s really important specify that we explicity decided to avoid
 
 ## Network Usage
 
-This architecture does not have any particular network constraint, because we planned to send data to the cloud only when the "SECURITY" level changes. And even if the security level changes, our board will send only a simple value that stand for : red - yellow - green. However, we must take into account that a lot of devices can send the value but should be supported by the gateway infrastructure.
+This architecture does not have any particular network constraint, because we planned to send data to the cloud only when the "SECURITY" level changes. And even if the security level changes, our board will send only a simple value that stand for : red - yellow - green. However, we must take into account that a lot of devices can send the value but should be supported by the gateway infrastructure. 
 
 ### Packets and Payload Size 
 
