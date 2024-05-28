@@ -12,12 +12,12 @@
 #include "analog_util.h"
 #include "fmt.h"
 // LoraWan Libraries
-//#include "net/loramac.h"
-//#include "semtech_loramac.h"
+#include "net/loramac.h"
+#include "semtech_loramac.h"
 //Drivers
-//#include "sx127x.h"
-//#include "sx127x_netdev.h"
-//#include "sx127x_params.h"
+#include "sx127x.h"
+#include "sx127x_netdev.h"
+#include "sx127x_params.h"
 
 //Useful constant for our code
 #define ADC_MIC                  ADC_LINE(2)
@@ -27,18 +27,18 @@
 
 // LoraWan Define
 #define PM_LOCK_LEVEL       (1)
-//static semtech_loramac_t loramac;
-//static sx127x_t sx127x;
+static semtech_loramac_t loramac;
+static sx127x_t sx127x;
 
 
 char *message = "This is LiveSe!";
 
-//static uint8_t deveui[LORAMAC_DEVEUI_LEN];
-//static uint8_t appeui[LORAMAC_APPEUI_LEN];
-//static uint8_t appkey[LORAMAC_APPKEY_LEN];
+static uint8_t deveui[LORAMAC_DEVEUI_LEN];
+static uint8_t appeui[LORAMAC_APPEUI_LEN];
+static uint8_t appkey[LORAMAC_APPKEY_LEN];
 
 //Global variables
-//bool LoraOk=false;
+bool LoraOk=false;
 char stackPir[THREAD_STACKSIZE_DEFAULT];
 char stackCompute[THREAD_STACKSIZE_DEFAULT];
 kernel_pid_t pid_read = 0;
@@ -61,18 +61,18 @@ uint8_t street_value=101;
 bool same_read_mic=false;
 uint8_t sleep_sensors=5;
 
-/*
+
 void LoraInit(void){
 
     // Drivers Setup
 
-    //sx127x_setup(&sx127x, &sx127x_params[0], 0);
-    //loramac.netdev = &sx127x.netdev;
-    //loramac.netdev->driver = &sx127x_driver;
+    sx127x_setup(&sx127x, &sx127x_params[0], 0);
+    loramac.netdev = &sx127x.netdev;
+    loramac.netdev->driver = &sx127x_driver;
 
     //Lora Stack
 
-    //semtech_loramac_init(&loramac);
+    semtech_loramac_init(&loramac);
 
 
     //Over The Air Activation 
@@ -80,11 +80,11 @@ void LoraInit(void){
     fmt_hex_bytes(deveui, CONFIG_LORAMAC_DEV_EUI_DEFAULT);
     fmt_hex_bytes(appeui, CONFIG_LORAMAC_APP_EUI_DEFAULT);
     fmt_hex_bytes(appkey, CONFIG_LORAMAC_APP_KEY_DEFAULT);
-    //semtech_loramac_set_deveui(&loramac, deveui);
-    //semtech_loramac_set_appeui(&loramac, appeui);
-    //semtech_loramac_set_appkey(&loramac, appkey);
+    semtech_loramac_set_deveui(&loramac, deveui);
+    semtech_loramac_set_appeui(&loramac, appeui);
+    semtech_loramac_set_appkey(&loramac, appkey);
 
-    //semtech_loramac_set_dr(&loramac, LORAMAC_DR_5);
+    semtech_loramac_set_dr(&loramac, LORAMAC_DR_5);
 
    
     
@@ -99,8 +99,8 @@ void LoraInit(void){
     
     puts("Join procedure succeeded");
 }
-*/
-/*
+
+
 static void send_message(void){
     printf("Sending: %s\n", message);
     
@@ -116,8 +116,8 @@ static void send_message(void){
     }
 	
 }
-*/
-/*
+
+
 void create_msg(void){
     if(street_value==0){
         message = "RED";
@@ -129,7 +129,6 @@ void create_msg(void){
         message = "GREEN";
     }
 }
- */
     
 /* Algorithm 1.0 (More precise)
 int computeAlg(int l,int v,pir_event_t m){
@@ -257,7 +256,7 @@ int main(void){
 		return 0;
     }
     
-    //LoraInit();
+    LoraInit();
     
 	pid_read = thread_create(stackCompute, sizeof(stackCompute),
                   THREAD_PRIORITY_MAIN - 1,
@@ -281,13 +280,13 @@ int main(void){
 		printf("LIGHT ===> %d\t VOLUME ===> %d\t  PIR===> %s\n", light ,vol , pir_value ? "Movement Detected" : "No Movement Detected");
         printf("0--->RED!\t 1--->ORANGE!\t 2--->GREEN!\n----->Current Value is: %d\n\n",final_result);
 
-       // if(final_result!=street_value){
+        if(final_result!=street_value){
             street_value=final_result;
-            //create_msg();
+            create_msg();
             message="YELLOW";
             printf("This is the messagge to send via Lora ----> %s\n",message);
-            //send_message();
-        //}
+            send_message();
+        }
         xtimer_sleep(SLEEP_LORA);
     }
 

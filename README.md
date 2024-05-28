@@ -15,11 +15,7 @@
 `LiVeSE` is a smart security system that, through distribuited station acquires, in particular contexts, certain information like the amount of crowd and the brightness of the street in order to try to evaluate and improve the security feels of the zone.
 
 
-
 ### Final Delivery
-
-#### *BlogPost*
-- >[BlogPost]()
 
 #### *Document Links*[^3]
 
@@ -31,7 +27,7 @@
  
  ####  *Videos links*
   
- -  > [DemoProject]()
+ -  > [DemoProject](https://www.youtube.com/watch?v=my3sKG0spZk)
 
 ###
 
