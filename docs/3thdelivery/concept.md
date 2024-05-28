@@ -24,8 +24,7 @@ We looked for **feedback** by opening an online Survey and these are the Results
 |![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_CrowdGraph.jpg)|
 
 
-
-We also searched for Papers that relates **perception of safety** with the environment 
+To further validate our claims, we searched on internet for Papers that relates **perception of safety** with the environment and there is what we found : 
 
 > ![](../sharedpictures/table6.JPG)
 > [Evaluation of safety for Pedestrians at Macro- and Micro-levels in Urban Areas](https://onlinepubs.trb.org/Onlinepubs/trr/1995/1502/1502-012.pdf)
@@ -45,7 +44,7 @@ This bring us to affirm that :
 
 Indeed, we decide to exploit the benefits of IoT devices as *pervasive systems* to collect data from streets and squares, evaluate safety with our algorithm, and visualize our results with the help of Cloud Services. 
 
-This is our mockup idea for the final User experience:
+This is our mockup that shows our idea for the final User experience:
 
 ![](https://github.com/nardoz-dev/projectName/blob/main/docs/sharedpictures/2_WebAppMockup.jpg)
 
